@@ -1,0 +1,2044 @@
+2024-08-01 20:39:02.495 [INF] Application is starting...
+2024-08-01 20:39:02.893 [INF] Start installing Hangfire SQL objects...
+2024-08-01 20:39:03.599 [INF] Hangfire SQL objects installed.
+2024-08-01 20:39:03.645 [WRN] No XML encryptor configured. Key {edcfbf13-29a4-4704-9414-e1cc2a3aec29} may be persisted to storage in unencrypted form.
+2024-08-01 20:39:03.831 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (), Changes: (Queue:default;Cron:*/5 * * * * *;TimeZoneId:UTC;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};CreatedAt:1722533943761;NextExecution:1722533945000;V:2)
+2024-08-01 20:39:03.926 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.21@padb'
+2024-08-01 20:39:03.926 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 20:39:03.926 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 20:39:03.930 [DBG] Execution loop BackgroundServerProcess:280b50a2 has started in 1,207 ms
+2024-08-01 20:39:03.931 [VRB] Server emirhan-macbook-air:8894:bd87fd5b is announcing itself...
+2024-08-01 20:39:03.943 [INF] Server emirhan-macbook-air:8894:bd87fd5b successfully announced in 11,7245 ms
+2024-08-01 20:39:03.944 [DBG] Execution loop ServerHeartbeatProcess:0a7d1823 has started in 0,49 ms
+2024-08-01 20:39:03.944 [INF] Server emirhan-macbook-air:8894:bd87fd5b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 20:39:03.944 [DBG] Execution loop ServerWatchdog:cd42a691 has started in 0,1282 ms
+2024-08-01 20:39:03.944 [DBG] Execution loop ServerJobCancellationWatcher:26100453 has started in 0,084 ms
+2024-08-01 20:39:03.945 [DBG] Execution loop ExpirationManager:d88d8c2b has started in 0,1725 ms
+2024-08-01 20:39:03.945 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:39:03.945 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:03.945 [DBG] Execution loop CountersAggregator:72ce5705 has started in 0,2918 ms
+2024-08-01 20:39:03.945 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:03.946 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 20:39:03.946 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 20:39:03.946 [DBG] Execution loop SqlServerHeartbeatProcess:446b9355 has started in 0,5424 ms
+2024-08-01 20:39:03.946 [DBG] Execution loop Worker:5f247bba has started in 0,3117 ms
+2024-08-01 20:39:03.946 [DBG] Execution loop Worker:7604dd07 has started in 0,7083 ms
+2024-08-01 20:39:03.946 [DBG] Execution loop Worker:52efd9f4 has started in 0,7851 ms
+2024-08-01 20:39:03.947 [DBG] Execution loop Worker:5e9be374 has started in 0,9698 ms
+2024-08-01 20:39:03.947 [DBG] Execution loop Worker:0cf19921 has started in 1,5637 ms
+2024-08-01 20:39:03.948 [DBG] Execution loop Worker:4a201e92 has started in 1,9054 ms
+2024-08-01 20:39:03.948 [DBG] Execution loop Worker:2be1a70f has started in 2,2798 ms
+2024-08-01 20:39:03.948 [DBG] Execution loop Worker:2e43a9c1 has started in 2,6327 ms
+2024-08-01 20:39:03.949 [DBG] Execution loop Worker:d2e299cd has started in 3,3011 ms
+2024-08-01 20:39:03.949 [DBG] Execution loop Worker:0e66d640 has started in 3,5172 ms
+2024-08-01 20:39:03.949 [DBG] Execution loop Worker:de38a0c8 has started in 3,7469 ms
+2024-08-01 20:39:03.950 [DBG] Execution loop Worker:a13e9d5d has started in 3,8832 ms
+2024-08-01 20:39:03.950 [DBG] Execution loop Worker:71a7d8e3 has started in 4,0177 ms
+2024-08-01 20:39:03.950 [DBG] Execution loop Worker:c81eec52 has started in 4,2101 ms
+2024-08-01 20:39:03.950 [DBG] Execution loop Worker:3e67749b has started in 4,3144 ms
+2024-08-01 20:39:03.950 [DBG] Execution loop Worker:732a4ce8 has started in 4,5039 ms
+2024-08-01 20:39:03.950 [DBG] Execution loop Worker:d70c9951 has started in 4,7275 ms
+2024-08-01 20:39:03.951 [DBG] Execution loop Worker:f93c5c96 has started in 5,0174 ms
+2024-08-01 20:39:03.951 [DBG] Execution loop Worker:aac984c5 has started in 5,0952 ms
+2024-08-01 20:39:03.951 [DBG] Execution loop DelayedJobScheduler:0a0079d9 has started in 0,1404 ms
+2024-08-01 20:39:03.951 [DBG] Execution loop Worker:c8b458ab has started in 5,3347 ms
+2024-08-01 20:39:03.951 [DBG] Execution loop RecurringJobScheduler:8529a9fe has started in 0,1093 ms
+2024-08-01 20:39:03.952 [INF] Server emirhan-macbook-air:8894:bd87fd5b all the dispatchers started
+2024-08-01 20:39:03.970 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 20:39:03.971 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 20:39:03.987 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 20:39:04.022 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 20:39:04.022 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 20:39:04.030 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 20:39:04.030 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 20:39:04.037 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 20:39:04.037 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 20:39:04.053 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 20:39:08.947 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:08.948 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:13.950 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:13.954 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:18.956 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:18.957 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:19.119 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};NextExecution:1722533945000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722533959024;NextExecution:1722533960000;LastJobId:1)
+2024-08-01 20:39:19.159 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:39:23.959 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:23.960 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:28.961 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:28.963 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:33.964 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:33.969 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:34.011 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:39:34.012 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:39:34.190 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722533959024;LastJobId:1;NextExecution:1722533960000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722533974157;NextExecution:1722533975000;LastJobId:2)
+2024-08-01 20:39:34.229 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:39:38.978 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:38.978 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:43.979 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:43.980 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:48.982 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:48.982 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:49.259 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722533974157;LastJobId:2;NextExecution:1722533975000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722533989240;NextExecution:1722533990000;LastJobId:3)
+2024-08-01 20:39:49.282 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:39:53.983 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:53.984 [VRB] No newly aborted jobs found.
+2024-08-01 20:39:58.986 [VRB] Checking for aborted jobs...
+2024-08-01 20:39:58.987 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:03.988 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:03.990 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:04.024 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:40:04.024 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:40:04.305 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722533989240;LastJobId:3;NextExecution:1722533990000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534004282;NextExecution:1722534005000;LastJobId:4)
+2024-08-01 20:40:04.323 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:40:08.991 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:08.992 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:13.993 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:13.994 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:18.996 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:18.996 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:19.349 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534004282;LastJobId:4;NextExecution:1722534005000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534019327;NextExecution:1722534020000;LastJobId:5)
+2024-08-01 20:40:19.369 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:40:23.997 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:23.997 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:28.999 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:29.000 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:34.001 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:34.001 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:34.036 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:40:34.036 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:40:34.401 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534019327;LastJobId:5;NextExecution:1722534020000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534034368;NextExecution:1722534035000;LastJobId:6)
+2024-08-01 20:40:34.427 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:40:39.003 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:39.004 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:44.004 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:44.005 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:49.006 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:49.007 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:49.459 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534034368;LastJobId:6;NextExecution:1722534035000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534049441;NextExecution:1722534050000;LastJobId:7)
+2024-08-01 20:40:49.474 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:40:54.008 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:54.008 [VRB] No newly aborted jobs found.
+2024-08-01 20:40:59.009 [VRB] Checking for aborted jobs...
+2024-08-01 20:40:59.010 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:04.010 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:04.010 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:04.048 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:41:04.048 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:41:04.493 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534049441;LastJobId:7;NextExecution:1722534050000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534064481;NextExecution:1722534065000;LastJobId:8)
+2024-08-01 20:41:04.511 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:41:09.011 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:09.011 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:14.013 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:14.013 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:19.014 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:19.015 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:19.528 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534064481;LastJobId:8;NextExecution:1722534065000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534079505;NextExecution:1722534080000;LastJobId:9)
+2024-08-01 20:41:19.537 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:41:24.016 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:24.016 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:29.017 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:29.017 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:34.019 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:34.020 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:34.059 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:41:34.059 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:41:34.561 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534079505;LastJobId:9;NextExecution:1722534080000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534094537;NextExecution:1722534095000;LastJobId:10)
+2024-08-01 20:41:34.582 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:41:39.021 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:39.022 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:40.037 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:41:40.068 [WRN] Failed to determine the https port for redirect.
+2024-08-01 20:41:40.122 [INF] -------------Request-Begin------------
+2024-08-01 20:41:40.123 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Customers 
+QueryString:  
+Request Body: {
+  "FirstName": "Emirhan",
+  "LastName": "Kilicaslan",
+  "IdentityNumber": "123123123",
+  "Email": "emirhan@email.com",
+  "DateOfBirth": "2001-01-01T17:41:10.047Z",
+  "CustomerDetail": {
+    "FatherName": "string",
+    "MotherName": "string",
+    "EducationStatus": "string",
+    "MontlyIncome": "string",
+    "Occupation": "string"
+  },
+  "CustomerAddresses": [
+    {
+      "CustomerId": 0,
+      "Country": "string",
+      "City": "string",
+      "AddressLine": "string",
+      "ZipCode": "string",
+      "IsDefault": true
+    }
+  ],
+  "CustomerPhones": [
+    {
+      "CustomerId": 0,
+      "CountyCode": "string",
+      "Phone": "string",
+      "IsDefault": true
+    }
+  ]
+}
+2024-08-01 20:41:40.123 [INF] 
+
+2024-08-01 20:41:40.123 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Customers 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-08-01 20:41:40.123 [INF] -------------Request-End------------
+2024-08-01 20:41:44.023 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:44.023 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:49.025 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:49.025 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:49.612 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534094537;LastJobId:10;NextExecution:1722534095000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534109585;NextExecution:1722534110000;LastJobId:11)
+2024-08-01 20:41:49.645 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:41:54.027 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:54.027 [VRB] No newly aborted jobs found.
+2024-08-01 20:41:59.028 [VRB] Checking for aborted jobs...
+2024-08-01 20:41:59.029 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:02.674 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:42:03.646 [INF] -------------Request-Begin------------
+2024-08-01 20:42:03.646 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 20:42:03.646 [INF] 
+
+2024-08-01 20:42:03.646 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:42:03.632836Z",
+  "ReferenceNumber": "7882002c-e71c-41d6-a210-6d1a481a4724"
+}
+2024-08-01 20:42:03.657 [INF] -------------Request-End------------
+2024-08-01 20:42:04.030 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:04.030 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:04.066 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:42:04.066 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:42:04.673 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534109585;LastJobId:11;NextExecution:1722534110000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534124653;NextExecution:1722534125000;LastJobId:12)
+2024-08-01 20:42:04.698 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:42:09.031 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:09.031 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:14.033 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:14.033 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:19.034 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:19.034 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:19.725 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534124653;LastJobId:12;NextExecution:1722534125000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534139703;NextExecution:1722534140000;LastJobId:13)
+2024-08-01 20:42:19.748 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:42:24.035 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:24.037 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:24.506 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:42:24.586 [INF] -------------Request-Begin------------
+2024-08-01 20:42:24.586 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "admin",
+  "Password": "papara"
+}
+2024-08-01 20:42:24.586 [INF] 
+
+2024-08-01 20:42:24.586 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:42:24.585569Z",
+  "ReferenceNumber": "d80e239e-5781-4b71-9da0-6a0e904822e2"
+}
+2024-08-01 20:42:24.586 [INF] -------------Request-End------------
+2024-08-01 20:42:29.039 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:29.039 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:34.040 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:34.042 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:34.079 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:42:34.079 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:42:34.779 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534139703;LastJobId:13;NextExecution:1722534140000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534154748;NextExecution:1722534155000;LastJobId:14)
+2024-08-01 20:42:34.809 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:42:39.043 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:39.043 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:44.047 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:44.049 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:49.051 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:49.052 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:49.844 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534154748;LastJobId:14;NextExecution:1722534155000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534169812;NextExecution:1722534170000;LastJobId:15)
+2024-08-01 20:42:49.873 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:42:54.053 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:54.053 [VRB] No newly aborted jobs found.
+2024-08-01 20:42:59.054 [VRB] Checking for aborted jobs...
+2024-08-01 20:42:59.056 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:04.057 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:04.058 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:04.090 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:43:04.090 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:43:04.895 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534169812;LastJobId:15;NextExecution:1722534170000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534184879;NextExecution:1722534185000;LastJobId:16)
+2024-08-01 20:43:04.913 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:43:09.059 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:09.060 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:14.061 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:14.063 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:19.064 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:19.064 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:19.949 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534184879;LastJobId:16;NextExecution:1722534185000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534199914;NextExecution:1722534200000;LastJobId:17)
+2024-08-01 20:43:19.976 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:43:24.066 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:24.066 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:29.068 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:29.069 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:34.070 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:34.070 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:34.101 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:43:34.101 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:43:35.009 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534199914;LastJobId:17;NextExecution:1722534200000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534214985;NextExecution:1722534215000;LastJobId:18)
+2024-08-01 20:43:35.046 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:43:35.061 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534214985;LastJobId:18;NextExecution:1722534215000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534215049;NextExecution:1722534220000;LastJobId:19)
+2024-08-01 20:43:35.079 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:43:39.072 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:39.075 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:44.076 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:44.077 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:49.078 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:49.078 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:50.107 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534215049;LastJobId:19;NextExecution:1722534220000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534230085;NextExecution:1722534235000;LastJobId:20)
+2024-08-01 20:43:50.131 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:43:54.080 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:54.080 [VRB] No newly aborted jobs found.
+2024-08-01 20:43:59.081 [VRB] Checking for aborted jobs...
+2024-08-01 20:43:59.082 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:03.988 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 20:44:04.043 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 20:44:04.083 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:04.084 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:04.108 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:44:04.108 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:44:05.159 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534230085;LastJobId:20;NextExecution:1722534235000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534245137;NextExecution:1722534250000;LastJobId:21)
+2024-08-01 20:44:05.185 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:44:09.085 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:09.088 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:14.089 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:14.090 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:19.091 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:19.093 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:20.215 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534245137;LastJobId:21;NextExecution:1722534250000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534260193;NextExecution:1722534265000;LastJobId:22)
+2024-08-01 20:44:20.242 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:44:24.094 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:24.094 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:29.095 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:29.096 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:34.097 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:34.106 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:34.118 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:44:34.118 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:44:35.271 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534260193;LastJobId:22;NextExecution:1722534265000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534275251;NextExecution:1722534280000;LastJobId:23)
+2024-08-01 20:44:35.297 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:44:39.107 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:39.108 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:44.109 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:44.111 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:49.112 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:49.112 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:50.321 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534275251;LastJobId:23;NextExecution:1722534280000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534290300;NextExecution:1722534295000;LastJobId:24)
+2024-08-01 20:44:50.338 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:44:54.113 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:54.114 [VRB] No newly aborted jobs found.
+2024-08-01 20:44:59.115 [VRB] Checking for aborted jobs...
+2024-08-01 20:44:59.116 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:04.117 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:04.119 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:04.130 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:45:04.130 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:45:05.369 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534290300;LastJobId:24;NextExecution:1722534295000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534305336;NextExecution:1722534310000;LastJobId:25)
+2024-08-01 20:45:05.399 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:45:09.120 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:09.120 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:14.121 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:14.123 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:19.124 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:19.125 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:20.422 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534305336;LastJobId:25;NextExecution:1722534310000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534320400;NextExecution:1722534325000;LastJobId:26)
+2024-08-01 20:45:20.441 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:45:24.126 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:24.127 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:29.128 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:29.128 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:31.575 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:45:31.746 [INF] -------------Request-Begin------------
+2024-08-01 20:45:31.746 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 20:45:31.746 [INF] 
+
+2024-08-01 20:45:31.746 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:45:31.745797Z",
+  "ReferenceNumber": "64c92929-8b70-488c-833e-80c462a50f01"
+}
+2024-08-01 20:45:31.746 [INF] -------------Request-End------------
+2024-08-01 20:45:34.130 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:34.130 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:34.145 [DBG] Server emirhan-macbook-air:8894:bd87fd5b heartbeat successfully sent
+2024-08-01 20:45:34.145 [VRB] Server emirhan-macbook-air:8894:bd87fd5b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:45:35.468 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534320400;LastJobId:26;NextExecution:1722534325000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534335451;NextExecution:1722534340000;LastJobId:27)
+2024-08-01 20:45:35.496 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:45:39.131 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:39.132 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:44.133 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:44.133 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:44.498 [DBG] Hangfire Server is stopping...
+2024-08-01 20:45:44.499 [INF] Server emirhan-macbook-air:8894:bd87fd5b caught stopping signal...
+2024-08-01 20:45:44.500 [DBG] Execution loop SqlServerHeartbeatProcess:446b9355 stopped in 0 ms
+2024-08-01 20:45:44.500 [DBG] Execution loop DelayedJobScheduler:0a0079d9 stopped in 0 ms
+2024-08-01 20:45:44.500 [DBG] Execution loop RecurringJobScheduler:8529a9fe stopped in 0 ms
+2024-08-01 20:45:44.500 [DBG] Execution loop ServerJobCancellationWatcher:26100453 stopped in 0 ms
+2024-08-01 20:45:44.501 [DBG] Execution loop Worker:732a4ce8 stopped in 0 ms
+2024-08-01 20:45:44.500 [DBG] Execution loop ServerWatchdog:cd42a691 stopped in 0 ms
+2024-08-01 20:45:44.501 [DBG] Execution loop Worker:a13e9d5d stopped in 0 ms
+2024-08-01 20:45:44.501 [DBG] Execution loop Worker:7604dd07 stopped in 0 ms
+2024-08-01 20:45:44.500 [DBG] Execution loop CountersAggregator:72ce5705 stopped in 0 ms
+2024-08-01 20:45:44.500 [DBG] Execution loop Worker:de38a0c8 stopped in 0 ms
+2024-08-01 20:45:44.502 [DBG] Execution loop Worker:aac984c5 stopped in 0 ms
+2024-08-01 20:45:44.501 [DBG] Execution loop Worker:c81eec52 stopped in 0 ms
+2024-08-01 20:45:44.500 [DBG] Execution loop ExpirationManager:d88d8c2b stopped in 0 ms
+2024-08-01 20:45:44.503 [DBG] Execution loop Worker:52efd9f4 stopped in 0 ms
+2024-08-01 20:45:44.501 [DBG] Execution loop Worker:71a7d8e3 stopped in 0 ms
+2024-08-01 20:45:44.504 [DBG] Execution loop Worker:5e9be374 stopped in 0,5954 ms
+2024-08-01 20:45:44.503 [DBG] Execution loop Worker:4a201e92 stopped in 0 ms
+2024-08-01 20:45:44.503 [DBG] Execution loop Worker:3e67749b stopped in 0,1675 ms
+2024-08-01 20:45:44.504 [DBG] Execution loop Worker:0e66d640 stopped in 0,8765 ms
+2024-08-01 20:45:44.502 [DBG] Execution loop Worker:0cf19921 stopped in 0 ms
+2024-08-01 20:45:44.504 [DBG] Execution loop Worker:2be1a70f stopped in 1,0931 ms
+2024-08-01 20:45:44.503 [DBG] Execution loop Worker:d2e299cd stopped in 0 ms
+2024-08-01 20:45:44.503 [DBG] Execution loop Worker:5f247bba stopped in 0 ms
+2024-08-01 20:45:44.504 [DBG] Execution loop Worker:d70c9951 stopped in 0,2222 ms
+2024-08-01 20:45:44.502 [DBG] Execution loop Worker:f93c5c96 stopped in 0 ms
+2024-08-01 20:45:44.502 [DBG] Execution loop Worker:c8b458ab stopped in 0 ms
+2024-08-01 20:45:44.504 [DBG] Execution loop Worker:2e43a9c1 stopped in 1,1495 ms
+2024-08-01 20:45:44.510 [INF] Server emirhan-macbook-air:8894:bd87fd5b All dispatchers stopped
+2024-08-01 20:45:44.510 [DBG] Execution loop ServerHeartbeatProcess:0a7d1823 stopped in 0 ms
+2024-08-01 20:45:44.513 [VRB] Server emirhan-macbook-air:8894:bd87fd5b is reporting itself as stopped...
+2024-08-01 20:45:44.531 [DBG] Hangfire Server is stopping...
+2024-08-01 20:45:44.544 [INF] Server emirhan-macbook-air:8894:bd87fd5b successfully reported itself as stopped in 30,2266 ms
+2024-08-01 20:45:44.544 [INF] Server emirhan-macbook-air:8894:bd87fd5b has been stopped in total 40,7808 ms
+2024-08-01 20:45:44.544 [DBG] Execution loop BackgroundServerProcess:280b50a2 stopped in 40,8773 ms
+2024-08-01 20:45:47.965 [INF] Application is starting...
+2024-08-01 20:45:48.273 [INF] Start installing Hangfire SQL objects...
+2024-08-01 20:45:48.663 [INF] Hangfire SQL objects installed.
+2024-08-01 20:45:48.873 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.21@padb'
+2024-08-01 20:45:48.874 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 20:45:48.874 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 20:45:48.877 [DBG] Execution loop BackgroundServerProcess:6d201497 has started in 1,0741 ms
+2024-08-01 20:45:48.878 [VRB] Server emirhan-macbook-air:9057:4f23bed7 is announcing itself...
+2024-08-01 20:45:48.886 [INF] Server emirhan-macbook-air:9057:4f23bed7 successfully announced in 7,6469 ms
+2024-08-01 20:45:48.887 [DBG] Execution loop ServerHeartbeatProcess:f746d192 has started in 0,4356 ms
+2024-08-01 20:45:48.887 [INF] Server emirhan-macbook-air:9057:4f23bed7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 20:45:48.887 [DBG] Execution loop ServerWatchdog:e6c86204 has started in 0,1328 ms
+2024-08-01 20:45:48.887 [DBG] Execution loop ServerJobCancellationWatcher:b19ad2ba has started in 0,1009 ms
+2024-08-01 20:45:48.888 [DBG] Execution loop ExpirationManager:b56515e3 has started in 0,1333 ms
+2024-08-01 20:45:48.888 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:48.888 [DBG] Execution loop CountersAggregator:14244390 has started in 0,2057 ms
+2024-08-01 20:45:48.888 [DBG] Execution loop SqlServerHeartbeatProcess:a693952c has started in 0,1096 ms
+2024-08-01 20:45:48.888 [VRB] Server emirhan-macbook-air:9057:4f23bed7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:45:48.888 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:48.888 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 20:45:48.888 [DBG] Execution loop Worker:5cceeca2 has started in 0,2383 ms
+2024-08-01 20:45:48.888 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 20:45:48.889 [DBG] Execution loop Worker:1cbea448 has started in 0,5465 ms
+2024-08-01 20:45:48.889 [DBG] Execution loop Worker:48203a68 has started in 0,7991 ms
+2024-08-01 20:45:48.889 [DBG] Execution loop Worker:0334aa7b has started in 0,8883 ms
+2024-08-01 20:45:48.889 [DBG] Execution loop Worker:10c6f922 has started in 1,0069 ms
+2024-08-01 20:45:48.889 [DBG] Execution loop Worker:51b15f55 has started in 1,0973 ms
+2024-08-01 20:45:48.889 [DBG] Execution loop Worker:424f0e6b has started in 1,4174 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:d3544678 has started in 1,6125 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:3884a4cf has started in 1,6796 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:ef056099 has started in 1,8701 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:7df9e173 has started in 1,9376 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:8639af6d has started in 2,0722 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:4442161c has started in 2,165 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:db55794f has started in 2,2415 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:f7b7af5f has started in 2,3095 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:fb6c7d46 has started in 2,3717 ms
+2024-08-01 20:45:48.890 [DBG] Execution loop Worker:44eebfda has started in 2,4343 ms
+2024-08-01 20:45:48.891 [DBG] Execution loop Worker:65edd87d has started in 2,5633 ms
+2024-08-01 20:45:48.891 [DBG] Execution loop Worker:c9ead485 has started in 2,6522 ms
+2024-08-01 20:45:48.891 [DBG] Execution loop Worker:3d39a4c8 has started in 2,7973 ms
+2024-08-01 20:45:48.891 [DBG] Execution loop DelayedJobScheduler:eb581b0c has started in 0,0926 ms
+2024-08-01 20:45:48.891 [INF] Server emirhan-macbook-air:9057:4f23bed7 all the dispatchers started
+2024-08-01 20:45:48.891 [DBG] Execution loop RecurringJobScheduler:84115a42 has started in 0,0995 ms
+2024-08-01 20:45:48.895 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 20:45:48.895 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 20:45:48.918 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 20:45:48.947 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 20:45:48.947 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 20:45:48.949 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 20:45:48.949 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 20:45:48.951 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 20:45:48.951 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 20:45:48.953 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 20:45:48.966 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534335451;LastJobId:27;NextExecution:1722534340000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534348917;NextExecution:1722534350000;LastJobId:28)
+2024-08-01 20:45:48.990 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:45:53.890 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:53.891 [VRB] No newly aborted jobs found.
+2024-08-01 20:45:58.893 [VRB] Checking for aborted jobs...
+2024-08-01 20:45:58.896 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:03.897 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:03.898 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:04.010 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534348917;LastJobId:28;NextExecution:1722534350000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534363991;NextExecution:1722534365000;LastJobId:29)
+2024-08-01 20:46:04.022 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:46:08.746 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:46:08.768 [WRN] Failed to determine the https port for redirect.
+2024-08-01 20:46:08.899 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:08.899 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:09.787 [INF] -------------Request-Begin------------
+2024-08-01 20:46:09.787 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 20:46:09.787 [INF] 
+
+2024-08-01 20:46:09.787 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:46:09.772902Z",
+  "ReferenceNumber": "a90423e8-5a65-433d-81b6-d68434abdd2c"
+}
+2024-08-01 20:46:09.787 [INF] -------------Request-End------------
+2024-08-01 20:46:13.900 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:13.901 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:18.902 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:18.903 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:18.905 [DBG] Server emirhan-macbook-air:9057:4f23bed7 heartbeat successfully sent
+2024-08-01 20:46:18.905 [VRB] Server emirhan-macbook-air:9057:4f23bed7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:46:19.054 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534363991;LastJobId:29;NextExecution:1722534365000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534379023;NextExecution:1722534380000;LastJobId:30)
+2024-08-01 20:46:19.080 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:46:23.904 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:23.905 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:28.907 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:28.911 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:33.913 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:33.914 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:34.117 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534379023;LastJobId:30;NextExecution:1722534380000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534394097;NextExecution:1722534395000;LastJobId:31)
+2024-08-01 20:46:34.141 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:46:38.916 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:38.918 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:43.919 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:43.919 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:48.920 [DBG] Server emirhan-macbook-air:9057:4f23bed7 heartbeat successfully sent
+2024-08-01 20:46:48.921 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:48.921 [VRB] Server emirhan-macbook-air:9057:4f23bed7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:46:48.921 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:49.172 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534394097;LastJobId:31;NextExecution:1722534395000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534409137;NextExecution:1722534410000;LastJobId:32)
+2024-08-01 20:46:49.205 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:46:53.922 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:53.922 [VRB] No newly aborted jobs found.
+2024-08-01 20:46:58.923 [VRB] Checking for aborted jobs...
+2024-08-01 20:46:58.926 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:03.928 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:03.929 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:04.235 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534409137;LastJobId:32;NextExecution:1722534410000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534424205;NextExecution:1722534425000;LastJobId:33)
+2024-08-01 20:47:04.259 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:47:08.931 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:08.933 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:13.935 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:13.935 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:18.930 [DBG] Server emirhan-macbook-air:9057:4f23bed7 heartbeat successfully sent
+2024-08-01 20:47:18.931 [VRB] Server emirhan-macbook-air:9057:4f23bed7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:47:18.936 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:18.936 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:19.292 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534424205;LastJobId:33;NextExecution:1722534425000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534439270;NextExecution:1722534440000;LastJobId:34)
+2024-08-01 20:47:19.322 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:47:23.938 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:23.938 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:28.940 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:28.940 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:33.941 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:33.942 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:34.360 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534439270;LastJobId:34;NextExecution:1722534440000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534454325;NextExecution:1722534455000;LastJobId:35)
+2024-08-01 20:47:34.384 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:47:38.944 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:38.944 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:43.946 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:43.948 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:48.941 [DBG] Server emirhan-macbook-air:9057:4f23bed7 heartbeat successfully sent
+2024-08-01 20:47:48.942 [VRB] Server emirhan-macbook-air:9057:4f23bed7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:47:48.950 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:48.950 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:49.418 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534454325;LastJobId:35;NextExecution:1722534455000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534469394;NextExecution:1722534470000;LastJobId:36)
+2024-08-01 20:47:49.436 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:47:53.951 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:53.951 [VRB] No newly aborted jobs found.
+2024-08-01 20:47:58.953 [VRB] Checking for aborted jobs...
+2024-08-01 20:47:58.953 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:03.955 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:03.955 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:04.466 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534469394;LastJobId:36;NextExecution:1722534470000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534484442;NextExecution:1722534485000;LastJobId:37)
+2024-08-01 20:48:04.492 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:48:08.956 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:08.958 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:13.959 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:13.960 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:15.200 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:48:15.310 [INF] -------------Request-Begin------------
+2024-08-01 20:48:15.310 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 20:48:15.310 [INF] 
+
+2024-08-01 20:48:15.311 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:48:15.30993Z",
+  "ReferenceNumber": "8a7bacaa-2a9c-4a1a-8ff6-951c213fcea6"
+}
+2024-08-01 20:48:15.322 [INF] -------------Request-End------------
+2024-08-01 20:48:18.951 [DBG] Server emirhan-macbook-air:9057:4f23bed7 heartbeat successfully sent
+2024-08-01 20:48:18.951 [VRB] Server emirhan-macbook-air:9057:4f23bed7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:48:18.961 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:18.962 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:19.516 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534484442;LastJobId:37;NextExecution:1722534485000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534499504;NextExecution:1722534500000;LastJobId:38)
+2024-08-01 20:48:19.535 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:48:23.963 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:23.963 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:28.965 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:28.965 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:33.966 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:33.966 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:34.549 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534499504;LastJobId:38;NextExecution:1722534500000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534514529;NextExecution:1722534515000;LastJobId:39)
+2024-08-01 20:48:34.561 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:48:37.220 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:48:37.276 [INF] -------------Request-Begin------------
+2024-08-01 20:48:37.276 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 20:48:37.276 [INF] 
+
+2024-08-01 20:48:37.276 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:48:37.275338Z",
+  "ReferenceNumber": "8786dd2f-b191-4ad6-9a85-4a711f5c93e0"
+}
+2024-08-01 20:48:37.276 [INF] -------------Request-End------------
+2024-08-01 20:48:38.967 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:38.967 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:43.968 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:43.969 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:48.967 [DBG] Server emirhan-macbook-air:9057:4f23bed7 heartbeat successfully sent
+2024-08-01 20:48:48.968 [VRB] Server emirhan-macbook-air:9057:4f23bed7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:48:48.971 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:48.971 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:49.580 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534514529;LastJobId:39;NextExecution:1722534515000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534529562;NextExecution:1722534530000;LastJobId:40)
+2024-08-01 20:48:49.596 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:48:53.972 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:53.972 [VRB] No newly aborted jobs found.
+2024-08-01 20:48:58.974 [VRB] Checking for aborted jobs...
+2024-08-01 20:48:58.974 [VRB] No newly aborted jobs found.
+2024-08-01 20:49:03.976 [VRB] Checking for aborted jobs...
+2024-08-01 20:49:03.976 [VRB] No newly aborted jobs found.
+2024-08-01 20:49:04.623 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534529562;LastJobId:40;NextExecution:1722534530000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534544605;NextExecution:1722534545000;LastJobId:41)
+2024-08-01 20:49:04.645 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:49:08.977 [VRB] Checking for aborted jobs...
+2024-08-01 20:49:08.978 [VRB] No newly aborted jobs found.
+2024-08-01 20:49:09.439 [DBG] Hangfire Server is stopping...
+2024-08-01 20:49:09.440 [INF] Server emirhan-macbook-air:9057:4f23bed7 caught stopping signal...
+2024-08-01 20:49:09.441 [DBG] Execution loop SqlServerHeartbeatProcess:a693952c stopped in 0 ms
+2024-08-01 20:49:09.441 [DBG] Execution loop DelayedJobScheduler:eb581b0c stopped in 0 ms
+2024-08-01 20:49:09.441 [DBG] Execution loop ExpirationManager:b56515e3 stopped in 0 ms
+2024-08-01 20:49:09.441 [DBG] Execution loop Worker:c9ead485 stopped in 0,0971 ms
+2024-08-01 20:49:09.442 [DBG] Execution loop ServerWatchdog:e6c86204 stopped in 0,2504 ms
+2024-08-01 20:49:09.441 [DBG] Execution loop RecurringJobScheduler:84115a42 stopped in 0 ms
+2024-08-01 20:49:09.441 [DBG] Execution loop CountersAggregator:14244390 stopped in 0 ms
+2024-08-01 20:49:09.442 [DBG] Execution loop Worker:44eebfda stopped in 0,688 ms
+2024-08-01 20:49:09.441 [DBG] Execution loop ServerJobCancellationWatcher:b19ad2ba stopped in 0 ms
+2024-08-01 20:49:09.442 [DBG] Execution loop Worker:65edd87d stopped in 0,9225 ms
+2024-08-01 20:49:09.442 [DBG] Execution loop Worker:fb6c7d46 stopped in 0,5239 ms
+2024-08-01 20:49:09.442 [DBG] Execution loop Worker:3d39a4c8 stopped in 1,1285 ms
+2024-08-01 20:49:09.443 [DBG] Execution loop Worker:ef056099 stopped in 1,3575 ms
+2024-08-01 20:49:09.443 [DBG] Execution loop Worker:424f0e6b stopped in 1,4634 ms
+2024-08-01 20:49:09.443 [DBG] Execution loop Worker:0334aa7b stopped in 1,4942 ms
+2024-08-01 20:49:09.443 [DBG] Execution loop Worker:5cceeca2 stopped in 1,81 ms
+2024-08-01 20:49:09.443 [DBG] Execution loop Worker:10c6f922 stopped in 1,854 ms
+2024-08-01 20:49:09.443 [DBG] Execution loop Worker:48203a68 stopped in 2,0112 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:51b15f55 stopped in 2,2017 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:7df9e173 stopped in 2,4305 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:1cbea448 stopped in 2,7804 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:f7b7af5f stopped in 2,5424 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:db55794f stopped in 2,8334 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:4442161c stopped in 2,5527 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:d3544678 stopped in 2,8256 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:3884a4cf stopped in 2,4658 ms
+2024-08-01 20:49:09.444 [DBG] Execution loop Worker:8639af6d stopped in 2,727 ms
+2024-08-01 20:49:09.445 [INF] Server emirhan-macbook-air:9057:4f23bed7 All dispatchers stopped
+2024-08-01 20:49:09.445 [DBG] Execution loop ServerHeartbeatProcess:f746d192 stopped in 0,0551 ms
+2024-08-01 20:49:09.446 [VRB] Server emirhan-macbook-air:9057:4f23bed7 is reporting itself as stopped...
+2024-08-01 20:49:09.451 [DBG] Hangfire Server is stopping...
+2024-08-01 20:49:09.465 [INF] Server emirhan-macbook-air:9057:4f23bed7 successfully reported itself as stopped in 18,453 ms
+2024-08-01 20:49:09.465 [INF] Server emirhan-macbook-air:9057:4f23bed7 has been stopped in total 23,5474 ms
+2024-08-01 20:49:09.465 [DBG] Execution loop BackgroundServerProcess:6d201497 stopped in 23,6129 ms
+2024-08-01 20:49:36.769 [INF] Application is starting...
+2024-08-01 20:49:37.447 [INF] Start installing Hangfire SQL objects...
+2024-08-01 20:49:37.794 [INF] Hangfire SQL objects installed.
+2024-08-01 20:49:38.212 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.21@padb'
+2024-08-01 20:49:38.213 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 20:49:38.213 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 20:49:38.219 [DBG] Execution loop BackgroundServerProcess:e71ffb5a has started in 2,5043 ms
+2024-08-01 20:49:38.225 [VRB] Server emirhan-macbook-air:9160:99e25874 is announcing itself...
+2024-08-01 20:49:38.283 [INF] Server emirhan-macbook-air:9160:99e25874 successfully announced in 57,871 ms
+2024-08-01 20:49:38.286 [DBG] Execution loop ServerHeartbeatProcess:e778c510 has started in 1,8869 ms
+2024-08-01 20:49:38.286 [INF] Server emirhan-macbook-air:9160:99e25874 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 20:49:38.310 [DBG] Execution loop ServerWatchdog:980a1bdb has started in 23,7718 ms
+2024-08-01 20:49:38.310 [VRB] Server emirhan-macbook-air:9160:99e25874 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:49:38.310 [DBG] Execution loop ServerJobCancellationWatcher:c550ee83 has started in 23,9982 ms
+2024-08-01 20:49:38.311 [VRB] Checking for aborted jobs...
+2024-08-01 20:49:38.313 [VRB] No newly aborted jobs found.
+2024-08-01 20:49:38.336 [DBG] Execution loop ExpirationManager:89a7ceba has started in 26,5362 ms
+2024-08-01 20:49:38.361 [DBG] Execution loop CountersAggregator:2cdd7fa7 has started in 49,8639 ms
+2024-08-01 20:49:38.386 [DBG] Execution loop SqlServerHeartbeatProcess:ae4373b3 has started in 72,9212 ms
+2024-08-01 20:49:38.409 [DBG] Execution loop Worker:9c9b211d has started in 72,1882 ms
+2024-08-01 20:49:38.480 [DBG] Execution loop Worker:e190cdd1 has started in 120,4936 ms
+2024-08-01 20:49:38.458 [DBG] Execution loop Worker:76e97c4d has started in 120,3964 ms
+2024-08-01 20:49:38.480 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 20:49:38.458 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 20:49:38.480 [DBG] Execution loop Worker:13974426 has started in 142,4213 ms
+2024-08-01 20:49:38.503 [DBG] Execution loop Worker:fdad32ab has started in 165,2171 ms
+2024-08-01 20:49:38.525 [DBG] Execution loop Worker:a6a850be has started in 187,5164 ms
+2024-08-01 20:49:38.526 [DBG] Execution loop Worker:21af53ca has started in 188,5819 ms
+2024-08-01 20:49:38.529 [DBG] Execution loop Worker:2b7f0b01 has started in 190,2706 ms
+2024-08-01 20:49:38.551 [DBG] Execution loop Worker:94c3bf99 has started in 213,9185 ms
+2024-08-01 20:49:38.597 [DBG] Execution loop Worker:0d46f37e has started in 259,5586 ms
+2024-08-01 20:49:38.599 [DBG] Execution loop Worker:8de0851e has started in 261,7488 ms
+2024-08-01 20:49:38.600 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 20:49:38.622 [DBG] Execution loop Worker:e54802c7 has started in 284,6997 ms
+2024-08-01 20:49:38.646 [DBG] Execution loop Worker:fa2cb810 has started in 308,4445 ms
+2024-08-01 20:49:38.671 [DBG] Execution loop Worker:7bdf96d7 has started in 333,9884 ms
+2024-08-01 20:49:38.672 [DBG] Execution loop Worker:7fc15c3c has started in 334,8966 ms
+2024-08-01 20:49:38.693 [DBG] Execution loop Worker:6135fc8a has started in 355,5246 ms
+2024-08-01 20:49:38.714 [DBG] Execution loop Worker:69617894 has started in 376,9029 ms
+2024-08-01 20:49:38.738 [DBG] Execution loop Worker:ad892819 has started in 400,7316 ms
+2024-08-01 20:49:38.805 [DBG] Execution loop Worker:533cbd69 has started in 447,2252 ms
+2024-08-01 20:49:38.856 [DBG] Execution loop DelayedJobScheduler:174f1f88 has started in 117,8113 ms
+2024-08-01 20:49:38.856 [INF] Server emirhan-macbook-air:9160:99e25874 all the dispatchers started
+2024-08-01 20:49:38.831 [DBG] Execution loop Worker:39dc875f has started in 493,5207 ms
+2024-08-01 20:49:38.862 [DBG] Execution loop RecurringJobScheduler:896771f4 has started in 77,6493 ms
+2024-08-01 20:49:38.888 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 20:49:38.889 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 20:49:39.330 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 20:49:39.330 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 20:49:39.412 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 20:49:39.412 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 20:49:39.422 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 20:49:39.472 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 20:49:39.480 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 20:49:39.537 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534544605;LastJobId:41;NextExecution:1722534545000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534579233;NextExecution:1722534580000;LastJobId:42)
+2024-08-01 20:49:40.073 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:49:40.227 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534579233;LastJobId:42;NextExecution:1722534580000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534580088;NextExecution:1722534585000;LastJobId:43)
+2024-08-01 20:49:40.490 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:49:43.315 [VRB] Checking for aborted jobs...
+2024-08-01 20:49:43.317 [VRB] No newly aborted jobs found.
+2024-08-01 20:49:48.318 [VRB] Checking for aborted jobs...
+2024-08-01 20:49:48.319 [VRB] No newly aborted jobs found.
+2024-08-01 20:49:53.320 [VRB] Checking for aborted jobs...
+2024-08-01 20:49:53.320 [VRB] No newly aborted jobs found.
+2024-08-01 20:49:55.943 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534580088;LastJobId:43;NextExecution:1722534585000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534595751;NextExecution:1722534600000;LastJobId:44)
+2024-08-01 20:49:56.299 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:49:56.689 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:49:56.854 [WRN] Failed to determine the https port for redirect.
+2024-08-01 20:50:02.032 [VRB] Checking for aborted jobs...
+2024-08-01 20:50:03.620 [VRB] No newly aborted jobs found.
+2024-08-01 20:50:25.151 [VRB] Checking for aborted jobs...
+2024-08-01 20:51:42.990 [VRB] No newly aborted jobs found.
+2024-08-01 20:51:43.211 [DBG] Server emirhan-macbook-air:9160:99e25874 heartbeat successfully sent
+2024-08-01 20:51:43.283 [VRB] Server emirhan-macbook-air:9160:99e25874 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:51:50.032 [VRB] Checking for aborted jobs...
+2024-08-01 20:51:50.060 [VRB] No newly aborted jobs found.
+2024-08-01 20:52:28.691 [VRB] Checking for aborted jobs...
+2024-08-01 20:52:34.319 [VRB] No newly aborted jobs found.
+2024-08-01 20:52:34.319 [DBG] Server emirhan-macbook-air:9160:99e25874 heartbeat successfully sent
+2024-08-01 20:52:34.344 [VRB] Server emirhan-macbook-air:9160:99e25874 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:53:20.290 [INF] Application is starting...
+2024-08-01 20:53:20.603 [INF] Start installing Hangfire SQL objects...
+2024-08-01 20:53:20.981 [INF] Hangfire SQL objects installed.
+2024-08-01 20:53:21.216 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.21@padb'
+2024-08-01 20:53:21.216 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 20:53:21.216 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 20:53:21.220 [DBG] Execution loop BackgroundServerProcess:ce55c0ff has started in 1,1763 ms
+2024-08-01 20:53:21.221 [VRB] Server emirhan-macbook-air:9262:fcee5922 is announcing itself...
+2024-08-01 20:53:21.230 [INF] Server emirhan-macbook-air:9262:fcee5922 successfully announced in 8,5725 ms
+2024-08-01 20:53:21.231 [DBG] Execution loop ServerHeartbeatProcess:736b5e54 has started in 0,4532 ms
+2024-08-01 20:53:21.231 [INF] Server emirhan-macbook-air:9262:fcee5922 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 20:53:21.231 [DBG] Execution loop ServerWatchdog:660fa3fe has started in 0,1195 ms
+2024-08-01 20:53:21.231 [DBG] Execution loop ServerJobCancellationWatcher:021edf25 has started in 0,1162 ms
+2024-08-01 20:53:21.231 [DBG] Execution loop ExpirationManager:fe347586 has started in 0,1355 ms
+2024-08-01 20:53:21.232 [DBG] Execution loop CountersAggregator:1ac96439 has started in 0,1566 ms
+2024-08-01 20:53:21.232 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:21.232 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:53:21.232 [DBG] Execution loop SqlServerHeartbeatProcess:3e6960c8 has started in 0,3509 ms
+2024-08-01 20:53:21.232 [DBG] Execution loop Worker:2a33eb43 has started in 0,2843 ms
+2024-08-01 20:53:21.232 [VRB] No newly aborted jobs found.
+2024-08-01 20:53:21.232 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 20:53:21.232 [DBG] Execution loop Worker:c35be0dd has started in 0,47 ms
+2024-08-01 20:53:21.232 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 20:53:21.232 [DBG] Execution loop Worker:ad4df1c1 has started in 0,4047 ms
+2024-08-01 20:53:21.233 [DBG] Execution loop Worker:020ccebf has started in 0,7483 ms
+2024-08-01 20:53:21.233 [DBG] Execution loop Worker:ac4ce2d7 has started in 0,8801 ms
+2024-08-01 20:53:21.233 [DBG] Execution loop Worker:9b113a2f has started in 1,1041 ms
+2024-08-01 20:53:21.233 [DBG] Execution loop Worker:c1bdb050 has started in 1,437 ms
+2024-08-01 20:53:21.233 [DBG] Execution loop Worker:60d2fc08 has started in 1,4967 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:68504545 has started in 1,7062 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:f728bfb9 has started in 1,786 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:cd58503b has started in 1,8901 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:4554880e has started in 2,0097 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:02012a35 has started in 2,1105 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:162d0fa6 has started in 2,1838 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:5f8a20b4 has started in 2,2376 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:df03424c has started in 2,3102 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:7d62b2de has started in 2,3551 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:ecfe02a8 has started in 2,456 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:d575570b has started in 2,5414 ms
+2024-08-01 20:53:21.234 [DBG] Execution loop Worker:ec811e04 has started in 2,623 ms
+2024-08-01 20:53:21.235 [DBG] Execution loop DelayedJobScheduler:3e2eefa9 has started in 0,0872 ms
+2024-08-01 20:53:21.235 [INF] Server emirhan-macbook-air:9262:fcee5922 all the dispatchers started
+2024-08-01 20:53:21.235 [DBG] Execution loop RecurringJobScheduler:2dbcb418 has started in 0,1132 ms
+2024-08-01 20:53:21.240 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 20:53:21.241 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 20:53:21.260 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 20:53:21.273 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 20:53:21.274 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 20:53:21.283 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 20:53:21.283 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 20:53:21.285 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 20:53:21.285 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 20:53:21.287 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 20:53:21.315 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534595751;LastJobId:44;NextExecution:1722534600000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534801265;NextExecution:1722534805000;LastJobId:45)
+2024-08-01 20:53:21.339 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:53:26.233 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:26.234 [VRB] No newly aborted jobs found.
+2024-08-01 20:53:31.235 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:31.236 [VRB] No newly aborted jobs found.
+2024-08-01 20:53:36.238 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:36.238 [VRB] No newly aborted jobs found.
+2024-08-01 20:53:36.360 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534801265;LastJobId:45;NextExecution:1722534805000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534816342;NextExecution:1722534820000;LastJobId:46)
+2024-08-01 20:53:36.376 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:53:36.597 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:53:36.613 [WRN] Failed to determine the https port for redirect.
+2024-08-01 20:53:37.636 [INF] -------------Request-Begin------------
+2024-08-01 20:53:37.636 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 20:53:37.637 [INF] 
+
+2024-08-01 20:53:37.637 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "ExpireTime": "2024-08-01T20:58:37.621593+03:00",
+    "AccessToken": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6InBhcGFyYSIsIlVzZXJJZCI6IjMiLCJSb2xlIjoiYWRtaW4iLCJTdGF0dXMiOiIxIiwiRW1haWwiOiJlbWFpbEBlbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJFbWlyaGFuIEtpbGljYXNsYW4iLCJleHAiOjE3MjI1MzgxMTcsImlzcyI6IlBhcmFBcGkiLCJhdWQiOiJQYXJhQXBpIn0.AHomt6_3rEtd78f0Mgp1aHSmUY8kHxLRCUVApnu3XlQ",
+    "UserName": "papara",
+    "Id": 0
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:53:37.62186Z",
+  "ReferenceNumber": "4f718dc9-f8d3-413f-9c99-f7cacd4cbf8f"
+}
+2024-08-01 20:53:37.637 [INF] -------------Request-End------------
+2024-08-01 20:53:41.239 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:41.239 [VRB] No newly aborted jobs found.
+2024-08-01 20:53:46.240 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:46.241 [VRB] No newly aborted jobs found.
+2024-08-01 20:53:51.242 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:51.243 [VRB] No newly aborted jobs found.
+2024-08-01 20:53:51.246 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:53:51.246 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:53:51.402 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534816342;LastJobId:46;NextExecution:1722534820000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534831375;NextExecution:1722534835000;LastJobId:47)
+2024-08-01 20:53:51.428 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:53:56.244 [VRB] Checking for aborted jobs...
+2024-08-01 20:53:56.245 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:01.247 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:01.248 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:06.250 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:06.250 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:06.462 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534831375;LastJobId:47;NextExecution:1722534835000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534846431;NextExecution:1722534850000;LastJobId:48)
+2024-08-01 20:54:06.489 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:54:11.252 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:11.255 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:16.256 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:16.257 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:21.258 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:21.258 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:21.261 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:54:21.262 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:54:21.521 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534846431;LastJobId:48;NextExecution:1722534850000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534861495;NextExecution:1722534865000;LastJobId:49)
+2024-08-01 20:54:21.548 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:54:26.259 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:26.260 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:31.261 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:31.261 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:36.262 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:36.265 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:36.572 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534861495;LastJobId:49;NextExecution:1722534865000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534876554;NextExecution:1722534880000;LastJobId:50)
+2024-08-01 20:54:36.596 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:54:41.266 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:41.267 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:46.268 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:46.269 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:51.229 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:54:51.269 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:51.269 [VRB] No newly aborted jobs found.
+2024-08-01 20:54:51.269 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:54:51.269 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:54:51.524 [INF] -------------Request-Begin------------
+2024-08-01 20:54:51.524 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "Name": "USD Account",
+  "CurrencyCode": "USD"
+}
+2024-08-01 20:54:51.524 [INF] 
+
+2024-08-01 20:54:51.525 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "CustomerId": 1,
+    "Name": "USD Account",
+    "AccountNumber": 2231019,
+    "IBAN": "TR223101997925786223101901",
+    "Balance": 0.00,
+    "CurrencyCode": "USD",
+    "OpenDate": "2024-08-01T20:54:51.310554+03:00",
+    "CustomerName": "Emirhan Kilicaslan",
+    "CustomerIdentityNumber": "123123123",
+    "CustomerNumber": 123123123,
+    "Id": 1
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:54:51.510419Z",
+  "ReferenceNumber": "ea0bc96d-09e7-4784-b829-bb03223d81b5"
+}
+2024-08-01 20:54:51.525 [INF] -------------Request-End------------
+2024-08-01 20:54:51.621 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534876554;LastJobId:50;NextExecution:1722534880000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534891605;NextExecution:1722534895000;LastJobId:51)
+2024-08-01 20:54:51.648 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:54:56.270 [VRB] Checking for aborted jobs...
+2024-08-01 20:54:56.271 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:01.272 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:01.272 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:06.273 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:06.275 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:06.679 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534891605;LastJobId:51;NextExecution:1722534895000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534906657;NextExecution:1722534910000;LastJobId:52)
+2024-08-01 20:55:06.703 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:55:11.277 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:11.277 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:16.278 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:16.278 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:21.281 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:21.282 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:21.284 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:55:21.284 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:55:21.741 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534906657;LastJobId:52;NextExecution:1722534910000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534921708;NextExecution:1722534925000;LastJobId:53)
+2024-08-01 20:55:21.767 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:55:26.283 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:26.284 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:31.285 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:31.285 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:36.287 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:36.287 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:36.795 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534921708;LastJobId:53;NextExecution:1722534925000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534936774;NextExecution:1722534940000;LastJobId:54)
+2024-08-01 20:55:36.822 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:55:41.288 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:41.289 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:46.290 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:46.292 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:51.293 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:51.294 [VRB] No newly aborted jobs found.
+2024-08-01 20:55:51.297 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:55:51.297 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:55:51.843 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534936774;LastJobId:54;NextExecution:1722534940000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534951825;NextExecution:1722534955000;LastJobId:55)
+2024-08-01 20:55:51.860 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:55:56.295 [VRB] Checking for aborted jobs...
+2024-08-01 20:55:56.295 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:01.296 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:01.296 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:06.298 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:06.298 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:06.881 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534951825;LastJobId:55;NextExecution:1722534955000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534966854;NextExecution:1722534970000;LastJobId:56)
+2024-08-01 20:56:06.896 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:56:11.299 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:11.300 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:16.303 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:16.304 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:21.305 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:21.307 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:21.312 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:56:21.312 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:56:21.924 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534966854;LastJobId:56;NextExecution:1722534970000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534981905;NextExecution:1722534985000;LastJobId:57)
+2024-08-01 20:56:21.949 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:56:26.308 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:26.310 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:31.311 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:31.312 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:36.313 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:36.313 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:36.982 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534981905;LastJobId:57;NextExecution:1722534985000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722534996954;NextExecution:1722535000000;LastJobId:58)
+2024-08-01 20:56:37.005 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:56:41.314 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:41.315 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:46.317 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:46.317 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:51.318 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:51.320 [VRB] No newly aborted jobs found.
+2024-08-01 20:56:51.327 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:56:51.328 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:56:52.030 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722534996954;LastJobId:58;NextExecution:1722535000000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535012011;NextExecution:1722535015000;LastJobId:59)
+2024-08-01 20:56:52.057 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:56:56.321 [VRB] Checking for aborted jobs...
+2024-08-01 20:56:56.321 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:01.322 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:01.324 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:06.325 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:06.326 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:07.086 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535012011;LastJobId:59;NextExecution:1722535015000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535027067;NextExecution:1722535030000;LastJobId:60)
+2024-08-01 20:57:07.107 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:57:11.327 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:11.329 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:16.330 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:16.330 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:21.331 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:21.332 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:21.339 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:57:21.339 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:57:22.129 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535027067;LastJobId:60;NextExecution:1722535030000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535042108;NextExecution:1722535045000;LastJobId:61)
+2024-08-01 20:57:22.168 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:57:26.334 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:26.334 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:31.335 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:31.335 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:36.336 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:36.337 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:37.188 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535042108;LastJobId:61;NextExecution:1722535045000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535057167;NextExecution:1722535060000;LastJobId:62)
+2024-08-01 20:57:37.200 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:57:41.338 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:41.338 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:46.340 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:46.341 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:51.341 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:51.342 [VRB] No newly aborted jobs found.
+2024-08-01 20:57:51.349 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:57:51.350 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:57:52.225 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535057167;LastJobId:62;NextExecution:1722535060000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535072210;NextExecution:1722535075000;LastJobId:63)
+2024-08-01 20:57:52.248 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:57:56.342 [VRB] Checking for aborted jobs...
+2024-08-01 20:57:56.343 [VRB] No newly aborted jobs found.
+2024-08-01 20:58:01.345 [VRB] Checking for aborted jobs...
+2024-08-01 20:58:01.345 [VRB] No newly aborted jobs found.
+2024-08-01 20:58:06.346 [VRB] Checking for aborted jobs...
+2024-08-01 20:58:06.347 [VRB] No newly aborted jobs found.
+2024-08-01 20:58:07.270 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535072210;LastJobId:63;NextExecution:1722535075000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535087255;NextExecution:1722535090000;LastJobId:64)
+2024-08-01 20:58:07.290 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:58:11.348 [VRB] Checking for aborted jobs...
+2024-08-01 20:58:11.349 [VRB] No newly aborted jobs found.
+2024-08-01 20:58:15.707 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 20:58:15.762 [INF] -------------Request-Begin------------
+2024-08-01 20:58:15.763 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "Name": "TRY Account",
+  "CurrencyCode": "TRY"
+}
+2024-08-01 20:58:15.763 [INF] 
+
+2024-08-01 20:58:15.763 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "CustomerId": 1,
+    "Name": "TRY Account",
+    "AccountNumber": 7420529,
+    "IBAN": "TR742052997925786742052901",
+    "Balance": 0.00,
+    "CurrencyCode": "TRY",
+    "OpenDate": "2024-08-01T20:58:15.733918+03:00",
+    "CustomerName": "Emirhan Kilicaslan",
+    "CustomerIdentityNumber": "123123123",
+    "CustomerNumber": 123123123,
+    "Id": 2
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T17:58:15.761696Z",
+  "ReferenceNumber": "4a34dc83-6825-4a84-8448-8826e3b8f9bb"
+}
+2024-08-01 20:58:15.763 [INF] -------------Request-End------------
+2024-08-01 20:58:16.351 [VRB] Checking for aborted jobs...
+2024-08-01 20:58:16.351 [VRB] No newly aborted jobs found.
+2024-08-01 20:58:21.241 [INF] 1 servers were removed due to timeout
+2024-08-01 20:58:21.257 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 20:58:21.298 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 20:58:21.352 [VRB] Checking for aborted jobs...
+2024-08-01 20:58:21.352 [VRB] No newly aborted jobs found.
+2024-08-01 20:58:21.356 [DBG] Server emirhan-macbook-air:9262:fcee5922 heartbeat successfully sent
+2024-08-01 20:58:21.356 [VRB] Server emirhan-macbook-air:9262:fcee5922 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 20:58:22.312 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535087255;LastJobId:64;NextExecution:1722535090000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535102299;NextExecution:1722535105000;LastJobId:65)
+2024-08-01 20:58:22.327 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 20:58:26.353 [VRB] Checking for aborted jobs...
+2024-08-01 20:58:26.353 [VRB] No newly aborted jobs found.
+2024-08-01 20:58:26.880 [DBG] Hangfire Server is stopping...
+2024-08-01 20:58:26.880 [INF] Server emirhan-macbook-air:9262:fcee5922 caught stopping signal...
+2024-08-01 20:58:26.881 [DBG] Execution loop ServerWatchdog:660fa3fe stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop ServerJobCancellationWatcher:021edf25 stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop ExpirationManager:fe347586 stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop SqlServerHeartbeatProcess:3e6960c8 stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop RecurringJobScheduler:2dbcb418 stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop CountersAggregator:1ac96439 stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop DelayedJobScheduler:3e2eefa9 stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop Worker:60d2fc08 stopped in 0 ms
+2024-08-01 20:58:26.881 [DBG] Execution loop Worker:68504545 stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:162d0fa6 stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:4554880e stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:5f8a20b4 stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:df03424c stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:7d62b2de stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:ecfe02a8 stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:ec811e04 stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:d575570b stopped in 0 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:ad4df1c1 stopped in 0,069 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:c1bdb050 stopped in 0,1532 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:c35be0dd stopped in 0,2667 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:f728bfb9 stopped in 0,3088 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:020ccebf stopped in 0,2101 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:9b113a2f stopped in 0,2066 ms
+2024-08-01 20:58:26.883 [DBG] Execution loop Worker:02012a35 stopped in 0,4635 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:cd58503b stopped in 0,3724 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:ac4ce2d7 stopped in 0,37 ms
+2024-08-01 20:58:26.882 [DBG] Execution loop Worker:2a33eb43 stopped in 0,3023 ms
+2024-08-01 20:58:26.883 [INF] Server emirhan-macbook-air:9262:fcee5922 All dispatchers stopped
+2024-08-01 20:58:26.883 [DBG] Execution loop ServerHeartbeatProcess:736b5e54 stopped in 0,036 ms
+2024-08-01 20:58:26.884 [VRB] Server emirhan-macbook-air:9262:fcee5922 is reporting itself as stopped...
+2024-08-01 20:58:26.889 [DBG] Hangfire Server is stopping...
+2024-08-01 20:58:26.912 [INF] Server emirhan-macbook-air:9262:fcee5922 successfully reported itself as stopped in 28,1227 ms
+2024-08-01 20:58:26.913 [INF] Server emirhan-macbook-air:9262:fcee5922 has been stopped in total 30,2203 ms
+2024-08-01 20:58:26.913 [DBG] Execution loop BackgroundServerProcess:ce55c0ff stopped in 30,2695 ms
+2024-08-01 21:02:31.158 [INF] Application is starting...
+2024-08-01 21:02:31.487 [INF] Start installing Hangfire SQL objects...
+2024-08-01 21:02:31.852 [INF] Hangfire SQL objects installed.
+2024-08-01 21:02:32.104 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.21@padb'
+2024-08-01 21:02:32.104 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 21:02:32.104 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 21:02:32.108 [DBG] Execution loop BackgroundServerProcess:ce014e6f has started in 1,0984 ms
+2024-08-01 21:02:32.109 [VRB] Server emirhan-macbook-air:9542:096f8c1e is announcing itself...
+2024-08-01 21:02:32.117 [INF] Server emirhan-macbook-air:9542:096f8c1e successfully announced in 8,3128 ms
+2024-08-01 21:02:32.118 [DBG] Execution loop ServerHeartbeatProcess:4bc4e0d1 has started in 0,4289 ms
+2024-08-01 21:02:32.118 [INF] Server emirhan-macbook-air:9542:096f8c1e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 21:02:32.118 [DBG] Execution loop ServerWatchdog:c903c0e3 has started in 0,078 ms
+2024-08-01 21:02:32.119 [DBG] Execution loop ServerJobCancellationWatcher:46ff45e0 has started in 0,0695 ms
+2024-08-01 21:02:32.119 [DBG] Execution loop ExpirationManager:4a13e4d6 has started in 0,1032 ms
+2024-08-01 21:02:32.119 [DBG] Execution loop CountersAggregator:2d75cf87 has started in 0,1022 ms
+2024-08-01 21:02:32.119 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 21:02:32.119 [DBG] Execution loop SqlServerHeartbeatProcess:b7f25ab4 has started in 0,2131 ms
+2024-08-01 21:02:32.119 [VRB] Server emirhan-macbook-air:9542:096f8c1e waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:02:32.119 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 21:02:32.119 [VRB] Checking for aborted jobs...
+2024-08-01 21:02:32.119 [DBG] Execution loop Worker:714cb039 has started in 0,4397 ms
+2024-08-01 21:02:32.120 [VRB] No newly aborted jobs found.
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:6527e19f has started in 0,7118 ms
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:cf44f32e has started in 0,8383 ms
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:2d048613 has started in 0,9056 ms
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:a170f2c4 has started in 0,9587 ms
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:3a25d8f2 has started in 1,0806 ms
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:83251e71 has started in 1,251 ms
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:fba3a775 has started in 1,3285 ms
+2024-08-01 21:02:32.120 [DBG] Execution loop Worker:578f43fd has started in 1,4643 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:e9f593ef has started in 1,635 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:6fbd4590 has started in 1,6991 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:2061c931 has started in 1,9349 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:a58cbdfd has started in 2,017 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:1ef88ceb has started in 2,11 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:623ac5f6 has started in 2,1798 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:1c488a73 has started in 2,2396 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:e9c17651 has started in 2,2954 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:60894528 has started in 2,3576 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:a861e67d has started in 2,4164 ms
+2024-08-01 21:02:32.121 [DBG] Execution loop Worker:c8cdd458 has started in 2,4906 ms
+2024-08-01 21:02:32.122 [DBG] Execution loop DelayedJobScheduler:233b9e92 has started in 0,0721 ms
+2024-08-01 21:02:32.122 [INF] Server emirhan-macbook-air:9542:096f8c1e all the dispatchers started
+2024-08-01 21:02:32.122 [DBG] Execution loop RecurringJobScheduler:c6394671 has started in 0,0733 ms
+2024-08-01 21:02:32.143 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 21:02:32.160 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 21:02:32.160 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 21:02:32.167 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 21:02:32.167 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 21:02:32.170 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 21:02:32.170 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 21:02:32.172 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 21:02:32.172 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 21:02:32.174 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 21:02:32.202 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535102299;LastJobId:65;NextExecution:1722535105000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535352163;NextExecution:1722535355000;LastJobId:66)
+2024-08-01 21:02:32.228 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:02:37.121 [VRB] Checking for aborted jobs...
+2024-08-01 21:02:37.122 [VRB] No newly aborted jobs found.
+2024-08-01 21:02:42.123 [VRB] Checking for aborted jobs...
+2024-08-01 21:02:42.124 [VRB] No newly aborted jobs found.
+2024-08-01 21:02:46.341 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 21:02:46.364 [WRN] Failed to determine the https port for redirect.
+2024-08-01 21:02:46.417 [INF] -------------Request-Begin------------
+2024-08-01 21:02:46.417 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "Name": "deneme",
+  "CurrencyCode": "CAD"
+}
+2024-08-01 21:02:46.417 [INF] 
+
+2024-08-01 21:02:46.417 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-08-01 21:02:46.417 [INF] -------------Request-End------------
+2024-08-01 21:02:47.125 [VRB] Checking for aborted jobs...
+2024-08-01 21:02:47.125 [VRB] No newly aborted jobs found.
+2024-08-01 21:02:47.260 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535352163;LastJobId:66;NextExecution:1722535355000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535367232;NextExecution:1722535370000;LastJobId:67)
+2024-08-01 21:02:47.292 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:02:52.126 [VRB] Checking for aborted jobs...
+2024-08-01 21:02:52.128 [VRB] No newly aborted jobs found.
+2024-08-01 21:02:57.129 [VRB] Checking for aborted jobs...
+2024-08-01 21:02:57.130 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:02.132 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:02.133 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:02.140 [DBG] Server emirhan-macbook-air:9542:096f8c1e heartbeat successfully sent
+2024-08-01 21:03:02.140 [VRB] Server emirhan-macbook-air:9542:096f8c1e waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:03:02.321 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535367232;LastJobId:67;NextExecution:1722535370000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535382299;NextExecution:1722535385000;LastJobId:68)
+2024-08-01 21:03:02.350 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:03:07.134 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:07.135 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:12.137 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:12.138 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:14.601 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 21:03:15.635 [INF] -------------Request-Begin------------
+2024-08-01 21:03:15.635 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 21:03:15.635 [INF] 
+
+2024-08-01 21:03:15.635 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "ExpireTime": "2024-08-01T21:08:15.619962+03:00",
+    "AccessToken": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6InBhcGFyYSIsIlVzZXJJZCI6IjMiLCJSb2xlIjoiYWRtaW4iLCJTdGF0dXMiOiIxIiwiRW1haWwiOiJlbWFpbEBlbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJFbWlyaGFuIEtpbGljYXNsYW4iLCJleHAiOjE3MjI1Mzg2OTUsImlzcyI6IlBhcmFBcGkiLCJhdWQiOiJQYXJhQXBpIn0.XKX1FcMj2slbjYaYDIfCGnRAFEfQxQLa09ednL_1mXo",
+    "UserName": "papara",
+    "Id": 0
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T18:03:15.620236Z",
+  "ReferenceNumber": "27cd67d5-a284-4c9a-81f9-35bf0e8f88c0"
+}
+2024-08-01 21:03:15.636 [INF] -------------Request-End------------
+2024-08-01 21:03:17.139 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:17.140 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:17.366 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535382299;LastJobId:68;NextExecution:1722535385000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535397352;NextExecution:1722535400000;LastJobId:69)
+2024-08-01 21:03:17.382 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:03:22.142 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:22.143 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:27.144 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:27.144 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:32.145 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:32.145 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:32.158 [DBG] Server emirhan-macbook-air:9542:096f8c1e heartbeat successfully sent
+2024-08-01 21:03:32.159 [VRB] Server emirhan-macbook-air:9542:096f8c1e waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:03:32.416 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535397352;LastJobId:69;NextExecution:1722535400000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535412387;NextExecution:1722535415000;LastJobId:70)
+2024-08-01 21:03:32.446 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:03:33.969 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 21:03:34.253 [INF] -------------Request-Begin------------
+2024-08-01 21:03:34.253 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "Name": "deneme",
+  "CurrencyCode": "CAD"
+}
+2024-08-01 21:03:34.253 [INF] 
+
+2024-08-01 21:03:34.253 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "CustomerId": 1,
+    "Name": "deneme",
+    "AccountNumber": 8025399,
+    "IBAN": "TR802539997925786802539901",
+    "Balance": 0.00,
+    "CurrencyCode": "CAD",
+    "OpenDate": "2024-08-01T21:03:34.067469+03:00",
+    "CustomerName": "Emirhan Kilicaslan",
+    "CustomerIdentityNumber": "123123123",
+    "CustomerNumber": 123123123,
+    "Id": 3
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T18:03:34.240389Z",
+  "ReferenceNumber": "4580677d-a153-4128-a3d0-96b29a80b714"
+}
+2024-08-01 21:03:34.254 [INF] -------------Request-End------------
+2024-08-01 21:03:37.147 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:37.147 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:42.148 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:42.149 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:47.151 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:47.152 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:47.466 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535412387;LastJobId:70;NextExecution:1722535415000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535427452;NextExecution:1722535430000;LastJobId:71)
+2024-08-01 21:03:47.484 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:03:52.153 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:52.154 [VRB] No newly aborted jobs found.
+2024-08-01 21:03:57.156 [VRB] Checking for aborted jobs...
+2024-08-01 21:03:57.156 [VRB] No newly aborted jobs found.
+2024-08-01 21:04:02.157 [VRB] Checking for aborted jobs...
+2024-08-01 21:04:02.157 [VRB] No newly aborted jobs found.
+2024-08-01 21:04:02.168 [DBG] Server emirhan-macbook-air:9542:096f8c1e heartbeat successfully sent
+2024-08-01 21:04:02.168 [VRB] Server emirhan-macbook-air:9542:096f8c1e waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:04:02.520 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535427452;LastJobId:71;NextExecution:1722535430000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535442483;NextExecution:1722535445000;LastJobId:72)
+2024-08-01 21:04:02.559 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:04:07.158 [VRB] Checking for aborted jobs...
+2024-08-01 21:04:07.159 [VRB] No newly aborted jobs found.
+2024-08-01 21:04:09.145 [DBG] Hangfire Server is stopping...
+2024-08-01 21:04:09.146 [INF] Server emirhan-macbook-air:9542:096f8c1e caught stopping signal...
+2024-08-01 21:04:09.146 [DBG] Execution loop DelayedJobScheduler:233b9e92 stopped in 0 ms
+2024-08-01 21:04:09.146 [DBG] Execution loop SqlServerHeartbeatProcess:b7f25ab4 stopped in 0 ms
+2024-08-01 21:04:09.146 [DBG] Execution loop ServerJobCancellationWatcher:46ff45e0 stopped in 0 ms
+2024-08-01 21:04:09.146 [DBG] Execution loop ExpirationManager:4a13e4d6 stopped in 0 ms
+2024-08-01 21:04:09.146 [DBG] Execution loop RecurringJobScheduler:c6394671 stopped in 0 ms
+2024-08-01 21:04:09.146 [DBG] Execution loop ServerWatchdog:c903c0e3 stopped in 0 ms
+2024-08-01 21:04:09.147 [DBG] Execution loop CountersAggregator:2d75cf87 stopped in 0 ms
+2024-08-01 21:04:09.147 [DBG] Execution loop Worker:3a25d8f2 stopped in 0 ms
+2024-08-01 21:04:09.147 [DBG] Execution loop Worker:2d048613 stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:623ac5f6 stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:c8cdd458 stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:a861e67d stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:1ef88ceb stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:6fbd4590 stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:e9f593ef stopped in 0,1182 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:578f43fd stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:a170f2c4 stopped in 0,3365 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:714cb039 stopped in 0 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:2061c931 stopped in 0,4174 ms
+2024-08-01 21:04:09.148 [DBG] Execution loop Worker:fba3a775 stopped in 0,4664 ms
+2024-08-01 21:04:09.149 [DBG] Execution loop Worker:83251e71 stopped in 0,7947 ms
+2024-08-01 21:04:09.149 [DBG] Execution loop Worker:cf44f32e stopped in 0,5953 ms
+2024-08-01 21:04:09.149 [DBG] Execution loop Worker:6527e19f stopped in 0,9954 ms
+2024-08-01 21:04:09.149 [DBG] Execution loop Worker:60894528 stopped in 1,0173 ms
+2024-08-01 21:04:09.149 [DBG] Execution loop Worker:e9c17651 stopped in 1,1161 ms
+2024-08-01 21:04:09.149 [DBG] Execution loop Worker:1c488a73 stopped in 1,1535 ms
+2024-08-01 21:04:09.149 [DBG] Execution loop Worker:a58cbdfd stopped in 1,2577 ms
+2024-08-01 21:04:09.149 [INF] Server emirhan-macbook-air:9542:096f8c1e All dispatchers stopped
+2024-08-01 21:04:09.150 [DBG] Execution loop ServerHeartbeatProcess:4bc4e0d1 stopped in 0,0503 ms
+2024-08-01 21:04:09.154 [VRB] Server emirhan-macbook-air:9542:096f8c1e is reporting itself as stopped...
+2024-08-01 21:04:09.169 [DBG] Hangfire Server is stopping...
+2024-08-01 21:04:09.177 [INF] Server emirhan-macbook-air:9542:096f8c1e successfully reported itself as stopped in 22,0071 ms
+2024-08-01 21:04:09.177 [INF] Server emirhan-macbook-air:9542:096f8c1e has been stopped in total 28,6612 ms
+2024-08-01 21:04:09.177 [DBG] Execution loop BackgroundServerProcess:ce014e6f stopped in 28,7484 ms
+2024-08-01 21:04:18.353 [INF] Application is starting...
+2024-08-01 21:04:19.059 [INF] Start installing Hangfire SQL objects...
+2024-08-01 21:04:19.496 [INF] Hangfire SQL objects installed.
+2024-08-01 21:04:19.932 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.21@padb'
+2024-08-01 21:04:19.932 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 21:04:19.933 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 21:04:19.938 [DBG] Execution loop BackgroundServerProcess:13c9f0c0 has started in 2,352 ms
+2024-08-01 21:04:19.943 [VRB] Server emirhan-macbook-air:9581:0e575467 is announcing itself...
+2024-08-01 21:04:20.000 [INF] Server emirhan-macbook-air:9581:0e575467 successfully announced in 57,0195 ms
+2024-08-01 21:04:20.002 [DBG] Execution loop ServerHeartbeatProcess:abd007c9 has started in 1,4631 ms
+2024-08-01 21:04:20.002 [INF] Server emirhan-macbook-air:9581:0e575467 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 21:04:20.003 [DBG] Execution loop ServerWatchdog:cbee304f has started in 0,9091 ms
+2024-08-01 21:04:20.004 [DBG] Execution loop ServerJobCancellationWatcher:f922e426 has started in 1,4124 ms
+2024-08-01 21:04:20.005 [DBG] Execution loop ExpirationManager:b64f4c8a has started in 0,7914 ms
+2024-08-01 21:04:20.026 [VRB] Server emirhan-macbook-air:9581:0e575467 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:04:20.005 [VRB] Checking for aborted jobs...
+2024-08-01 21:04:20.027 [DBG] Execution loop CountersAggregator:f842631a has started in 22,5286 ms
+2024-08-01 21:04:20.027 [DBG] Execution loop SqlServerHeartbeatProcess:68c4a513 has started in 22,129 ms
+2024-08-01 21:04:20.027 [VRB] No newly aborted jobs found.
+2024-08-01 21:04:20.028 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 21:04:20.028 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 21:04:20.054 [DBG] Execution loop Worker:27438745 has started in 48,4367 ms
+2024-08-01 21:04:20.082 [DBG] Execution loop Worker:07e92c01 has started in 76,7219 ms
+2024-08-01 21:04:20.128 [DBG] Execution loop Worker:4da27d63 has started in 122,1609 ms
+2024-08-01 21:04:20.153 [DBG] Execution loop Worker:f94c7a05 has started in 147,6529 ms
+2024-08-01 21:04:20.153 [DBG] Execution loop Worker:02c9f74d has started in 147,6527 ms
+2024-08-01 21:04:20.174 [DBG] Execution loop Worker:7b0068ae has started in 168,7825 ms
+2024-08-01 21:04:20.200 [DBG] Execution loop Worker:99a7e284 has started in 194,2591 ms
+2024-08-01 21:04:20.200 [DBG] Execution loop Worker:109d05ed has started in 193,4855 ms
+2024-08-01 21:04:20.223 [DBG] Execution loop Worker:83e6d1f1 has started in 217,4805 ms
+2024-08-01 21:04:20.244 [DBG] Execution loop Worker:9c50909c has started in 238,9512 ms
+2024-08-01 21:04:20.223 [DBG] Execution loop Worker:99eb5509 has started in 217,5559 ms
+2024-08-01 21:04:20.295 [DBG] Execution loop Worker:b73dda67 has started in 264,4653 ms
+2024-08-01 21:04:20.297 [DBG] Execution loop Worker:bd48fd43 has started in 291,4702 ms
+2024-08-01 21:04:20.322 [DBG] Execution loop Worker:17de8f6f has started in 316,7953 ms
+2024-08-01 21:04:20.323 [DBG] Execution loop Worker:3472d29e has started in 317,7656 ms
+2024-08-01 21:04:20.324 [DBG] Execution loop Worker:5f65461e has started in 318,5026 ms
+2024-08-01 21:04:20.325 [DBG] Execution loop Worker:5a8bd0ee has started in 319,2158 ms
+2024-08-01 21:04:20.349 [DBG] Execution loop Worker:8b40056c has started in 343,4185 ms
+2024-08-01 21:04:20.375 [DBG] Execution loop Worker:4f5907db has started in 369,2669 ms
+2024-08-01 21:04:20.401 [DBG] Execution loop Worker:b992882a has started in 395,2849 ms
+2024-08-01 21:04:20.401 [INF] Server emirhan-macbook-air:9581:0e575467 all the dispatchers started
+2024-08-01 21:04:20.424 [DBG] Execution loop DelayedJobScheduler:06a18f61 has started in 49,103 ms
+2024-08-01 21:04:20.424 [DBG] Execution loop RecurringJobScheduler:1749e094 has started in 49,4904 ms
+2024-08-01 21:04:20.452 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 21:04:20.453 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 21:04:20.507 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 21:04:20.696 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 21:04:20.696 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 21:04:20.704 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 21:04:20.705 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 21:04:20.810 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 21:04:20.811 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 21:04:20.816 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 21:04:20.854 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535442483;LastJobId:72;NextExecution:1722535445000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535460691;NextExecution:1722535465000;LastJobId:73)
+2024-08-01 21:04:21.115 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:04:25.029 [VRB] Checking for aborted jobs...
+2024-08-01 21:04:25.030 [VRB] No newly aborted jobs found.
+2024-08-01 21:04:30.031 [VRB] Checking for aborted jobs...
+2024-08-01 21:04:30.031 [VRB] No newly aborted jobs found.
+2024-08-01 21:04:33.537 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 21:04:33.562 [WRN] Failed to determine the https port for redirect.
+2024-08-01 21:04:44.823 [VRB] Checking for aborted jobs...
+2024-08-01 21:04:47.950 [VRB] No newly aborted jobs found.
+2024-08-01 21:04:49.550 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535460691;LastJobId:73;NextExecution:1722535465000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535488343;NextExecution:1722535490000;LastJobId:74)
+2024-08-01 21:04:50.003 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:04:50.181 [DBG] Server emirhan-macbook-air:9581:0e575467 heartbeat successfully sent
+2024-08-01 21:04:50.181 [VRB] Server emirhan-macbook-air:9581:0e575467 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:04:50.370 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535488343;LastJobId:74;NextExecution:1722535490000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535490098;NextExecution:1722535495000;LastJobId:75)
+2024-08-01 21:04:50.844 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:04:54.057 [VRB] Checking for aborted jobs...
+2024-08-01 21:04:55.118 [VRB] No newly aborted jobs found.
+2024-08-01 21:05:00.367 [VRB] Checking for aborted jobs...
+2024-08-01 21:05:00.488 [VRB] No newly aborted jobs found.
+2024-08-01 21:07:04.085 [VRB] Checking for aborted jobs...
+2024-08-01 21:07:04.157 [VRB] No newly aborted jobs found.
+2024-08-01 21:07:05.091 [DBG] Server emirhan-macbook-air:9581:0e575467 heartbeat successfully sent
+2024-08-01 21:07:05.176 [VRB] Server emirhan-macbook-air:9581:0e575467 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:07:09.376 [VRB] Checking for aborted jobs...
+2024-08-01 21:07:09.597 [VRB] No newly aborted jobs found.
+2024-08-01 21:07:17.666 [VRB] Checking for aborted jobs...
+2024-08-01 21:07:17.666 [VRB] No newly aborted jobs found.
+2024-08-01 21:08:34.963 [VRB] Checking for aborted jobs...
+2024-08-01 21:08:35.014 [VRB] No newly aborted jobs found.
+2024-08-01 21:08:35.195 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535490098;LastJobId:75;NextExecution:1722535495000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535625246;NextExecution:1722535630000;LastJobId:76)
+2024-08-01 21:08:35.195 [DBG] Server emirhan-macbook-air:9581:0e575467 heartbeat successfully sent
+2024-08-01 21:08:35.199 [VRB] Server emirhan-macbook-air:9581:0e575467 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:08:35.610 [DBG] Execution Worker is in the Faulted state now due to an exception, execution will be retried no more than in 00:00:01
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Hangfire.SqlServer.SqlServerJobQueue.<>c__DisplayClass14_0.<FetchJob>b__0(DbConnection connection) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 172
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 257
+   at Hangfire.SqlServer.SqlServerJobQueue.FetchJob(String[] queues) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 166
+   at Hangfire.SqlServer.SqlServerJobQueue.DequeueUsingSlidingInvisibilityTimeout(String[] queues, CancellationToken cancellationToken) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 140
+   at Hangfire.SqlServer.SqlServerJobQueue.Dequeue(String[] queues, CancellationToken cancellationToken) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 67
+   at Hangfire.SqlServer.SqlServerConnection.FetchNextJob(String[] queues, CancellationToken cancellationToken) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 86
+   at Hangfire.Server.Worker.Execute(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\Worker.cs:line 102
+   at Hangfire.Server.BackgroundProcessDispatcherBuilder.ExecuteProcess(Guid executionId, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Server\BackgroundProcessDispatcherBuilder.cs:line 82
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Processing\BackgroundExecution.cs:line 118
+ClientConnectionId:ee93a97f-5603-4f32-9b0a-c8f5a0451933
+Error Number:-2,State:0,Class:11
+2024-08-01 21:08:35.947 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:08:36.065 [DBG] Execution loop Worker:27438745 caught an exception and will be retried in 00:00:01
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Hangfire.SqlServer.SqlServerJobQueue.<>c__DisplayClass14_0.<FetchJob>b__0(DbConnection connection) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 172
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 257
+   at Hangfire.SqlServer.SqlServerJobQueue.FetchJob(String[] queues) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 166
+   at Hangfire.SqlServer.SqlServerJobQueue.DequeueUsingSlidingInvisibilityTimeout(String[] queues, CancellationToken cancellationToken) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 140
+   at Hangfire.SqlServer.SqlServerJobQueue.Dequeue(String[] queues, CancellationToken cancellationToken) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerJobQueue.cs:line 67
+   at Hangfire.SqlServer.SqlServerConnection.FetchNextJob(String[] queues, CancellationToken cancellationToken) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 86
+   at Hangfire.Server.Worker.Execute(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\Worker.cs:line 102
+   at Hangfire.Server.BackgroundProcessDispatcherBuilder.ExecuteProcess(Guid executionId, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Server\BackgroundProcessDispatcherBuilder.cs:line 82
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Processing\BackgroundExecution.cs:line 118
+ClientConnectionId:ee93a97f-5603-4f32-9b0a-c8f5a0451933
+Error Number:-2,State:0,Class:11
+2024-08-01 21:08:36.115 [DBG] Execution loop Worker:27438745 will be retried in 00:00:01...
+2024-08-01 21:08:36.260 [INF] -------------Request-Begin------------
+2024-08-01 21:08:36.260 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "papara",
+  "Password": "papara"
+}
+2024-08-01 21:08:36.260 [INF] 
+
+2024-08-01 21:08:36.260 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "ExpireTime": "2024-08-01T21:09:58.495202+03:00",
+    "AccessToken": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6InBhcGFyYSIsIlVzZXJJZCI6IjMiLCJSb2xlIjoiYWRtaW4iLCJTdGF0dXMiOiIxIiwiRW1haWwiOiJlbWFpbEBlbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJFbWlyaGFuIEtpbGljYXNsYW4iLCJleHAiOjE3MjI1Mzg3OTcsImlzcyI6IlBhcmFBcGkiLCJhdWQiOiJQYXJhQXBpIn0.seLJHTf_b2LV5TKeQcdsurDbrCK8kyIk0mLPObN-Etg",
+    "UserName": "papara",
+    "Id": 0
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T18:04:59.28397Z",
+  "ReferenceNumber": "6e05b9b4-3151-422d-93a4-a89a4b9da482"
+}
+2024-08-01 21:08:36.260 [INF] -------------Request-End------------
+2024-08-01 21:08:36.261 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535625246;LastJobId:76;NextExecution:1722535630000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535716107;NextExecution:1722535720000;LastJobId:77)
+2024-08-01 21:08:50.865 [VRB] Checking for aborted jobs...
+2024-08-01 21:08:50.990 [VRB] No newly aborted jobs found.
+2024-08-01 21:08:51.670 [WRN] Failed to process the job '76': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:25.
+RabbitMQ.Client.Exceptions.AlreadyClosedException: Already closed: The AMQP operation was interrupted: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception: Operation timed out', classId=0, methodId=0, exception=System.Net.Sockets.SocketException (60): Operation timed out
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   at RabbitMQ.Client.Impl.SessionBase.Transmit(OutgoingCommand& cmd)
+   at RabbitMQ.Client.Impl.ModelBase.ModelSend(MethodBase method, ContentHeaderBase header, ReadOnlyMemory`1 body)
+   at RabbitMQ.Client.Framing.Impl.Model._Private_BasicConsume(String queue, String consumerTag, Boolean noLocal, Boolean autoAck, Boolean exclusive, Boolean nowait, IDictionary`2 arguments)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Para.Bussiness.RabbitMQ.Email.EmailConsumer.StartListening() in /Users/emirhankilicaslan/Desktop/aspnet-core-project/aw-4-emirhankilicaslan/Para.Api/Para.Bussiness/RabbitMQ/EmailConsumer.cs:line 44
+   at InvokeStub_EmailConsumer.StartListening(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2024-08-01 21:08:51.795 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:08:52.217 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535716107;LastJobId:77;NextExecution:1722535720000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535732007;NextExecution:1722535735000;LastJobId:78)
+2024-08-01 21:08:52.626 [INF] Execution Worker recovered from the Faulted state after 00:00:17.0164681 and is in the Running state now
+2024-08-01 21:08:52.916 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:08:55.999 [VRB] Checking for aborted jobs...
+2024-08-01 21:08:56.000 [VRB] No newly aborted jobs found.
+2024-08-01 21:09:01.001 [VRB] Checking for aborted jobs...
+2024-08-01 21:09:01.003 [VRB] No newly aborted jobs found.
+2024-08-01 21:09:36.842 [INF] Application is starting...
+2024-08-01 21:09:37.550 [INF] Start installing Hangfire SQL objects...
+2024-08-01 21:09:37.853 [INF] Hangfire SQL objects installed.
+2024-08-01 21:09:38.312 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.1.21@padb'
+2024-08-01 21:09:38.312 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-01 21:09:38.313 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-01 21:09:38.322 [DBG] Execution loop BackgroundServerProcess:92f72fb5 has started in 2,5174 ms
+2024-08-01 21:09:38.324 [VRB] Server emirhan-macbook-air:9695:6a055ad7 is announcing itself...
+2024-08-01 21:09:38.334 [INF] Server emirhan-macbook-air:9695:6a055ad7 successfully announced in 10,3801 ms
+2024-08-01 21:09:38.336 [DBG] Execution loop ServerHeartbeatProcess:bb239693 has started in 1,3332 ms
+2024-08-01 21:09:38.336 [INF] Server emirhan-macbook-air:9695:6a055ad7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-01 21:09:38.337 [DBG] Execution loop ServerWatchdog:289993a8 has started in 0,7812 ms
+2024-08-01 21:09:38.338 [DBG] Execution loop ServerJobCancellationWatcher:6271e4b6 has started in 0,8323 ms
+2024-08-01 21:09:38.339 [DBG] Execution loop ExpirationManager:53df952b has started in 0,7777 ms
+2024-08-01 21:09:38.339 [VRB] Checking for aborted jobs...
+2024-08-01 21:09:38.363 [VRB] Server emirhan-macbook-air:9695:6a055ad7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:09:38.363 [DBG] Execution loop SqlServerHeartbeatProcess:7702bee7 has started in 24,2544 ms
+2024-08-01 21:09:38.363 [DBG] Execution loop CountersAggregator:ac377063 has started in 24,9709 ms
+2024-08-01 21:09:38.364 [VRB] No newly aborted jobs found.
+2024-08-01 21:09:38.434 [DBG] Execution loop Worker:48a25543 has started in 94,9987 ms
+2024-08-01 21:09:38.435 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-01 21:09:38.436 [DBG] Aggregating records in 'Counter' table...
+2024-08-01 21:09:38.436 [DBG] Execution loop Worker:b4426eb4 has started in 96,9095 ms
+2024-08-01 21:09:38.462 [DBG] Execution loop Worker:d8570b3d has started in 123,1184 ms
+2024-08-01 21:09:38.463 [DBG] Execution loop Worker:dc03969e has started in 123,8935 ms
+2024-08-01 21:09:38.462 [DBG] Execution loop Worker:43dbbe77 has started in 123,2467 ms
+2024-08-01 21:09:38.517 [DBG] Execution loop Worker:1cc0ebb3 has started in 177,5777 ms
+2024-08-01 21:09:38.544 [DBG] Execution loop Worker:1a873132 has started in 204,6142 ms
+2024-08-01 21:09:38.570 [DBG] Execution loop Worker:1d31efc4 has started in 230,8465 ms
+2024-08-01 21:09:38.570 [DBG] Execution loop Worker:a525cfe4 has started in 231,1193 ms
+2024-08-01 21:09:38.570 [DBG] Execution loop Worker:1ad0637c has started in 231,1194 ms
+2024-08-01 21:09:38.622 [DBG] Execution loop Worker:db086b55 has started in 283,1399 ms
+2024-08-01 21:09:38.622 [DBG] Execution loop Worker:0f5c6abb has started in 283,27 ms
+2024-08-01 21:09:38.666 [DBG] Execution loop Worker:011eca88 has started in 327,0138 ms
+2024-08-01 21:09:38.623 [DBG] Execution loop Worker:e271a3d4 has started in 283,287 ms
+2024-08-01 21:09:38.688 [VRB] Records from the 'Counter' table aggregated.
+2024-08-01 21:09:38.714 [DBG] Execution loop Worker:1aa26a93 has started in 374,9849 ms
+2024-08-01 21:09:38.737 [DBG] Execution loop Worker:f34dbf39 has started in 397,6235 ms
+2024-08-01 21:09:38.762 [DBG] Execution loop Worker:0cc45e04 has started in 422,3459 ms
+2024-08-01 21:09:38.787 [DBG] Execution loop Worker:11edab4a has started in 447,5715 ms
+2024-08-01 21:09:38.814 [DBG] Execution loop Worker:5d86d530 has started in 474,6137 ms
+2024-08-01 21:09:38.814 [DBG] Execution loop Worker:ab07d5a8 has started in 475,055 ms
+2024-08-01 21:09:38.844 [DBG] Execution loop DelayedJobScheduler:7094f7ea has started in 56,5077 ms
+2024-08-01 21:09:38.847 [INF] Server emirhan-macbook-air:9695:6a055ad7 all the dispatchers started
+2024-08-01 21:09:38.847 [DBG] Execution loop RecurringJobScheduler:859a1ede has started in 4,0686 ms
+2024-08-01 21:09:38.903 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-01 21:09:38.904 [DBG] Removing outdated records from the 'Job' table...
+2024-08-01 21:09:39.372 [VRB] Outdated records removed from the 'Job' table.
+2024-08-01 21:09:39.373 [DBG] Removing outdated records from the 'List' table...
+2024-08-01 21:09:39.480 [VRB] Outdated records removed from the 'List' table.
+2024-08-01 21:09:39.502 [DBG] Removing outdated records from the 'Set' table...
+2024-08-01 21:09:39.536 [VRB] Outdated records removed from the 'Set' table.
+2024-08-01 21:09:39.536 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-01 21:09:39.541 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-01 21:09:39.573 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535732007;LastJobId:78;NextExecution:1722535735000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535779355;NextExecution:1722535780000;LastJobId:79)
+2024-08-01 21:09:40.089 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:09:40.112 [DBG] 1 scheduled job(s) processed by scheduler.
+2024-08-01 21:09:40.522 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535779355;LastJobId:79;NextExecution:1722535780000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535780105;NextExecution:1722535785000;LastJobId:80)
+2024-08-01 21:09:40.792 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:09:43.366 [VRB] Checking for aborted jobs...
+2024-08-01 21:09:43.369 [VRB] No newly aborted jobs found.
+2024-08-01 21:09:48.370 [VRB] Checking for aborted jobs...
+2024-08-01 21:09:48.371 [VRB] No newly aborted jobs found.
+2024-08-01 21:09:53.373 [VRB] Checking for aborted jobs...
+2024-08-01 21:09:53.373 [VRB] No newly aborted jobs found.
+2024-08-01 21:09:56.332 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535780105;LastJobId:80;NextExecution:1722535785000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535796120;NextExecution:1722535800000;LastJobId:81)
+2024-08-01 21:09:56.529 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:09:58.374 [VRB] Checking for aborted jobs...
+2024-08-01 21:09:58.375 [VRB] No newly aborted jobs found.
+2024-08-01 21:09:58.543 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 21:09:58.569 [WRN] Failed to determine the https port for redirect.
+2024-08-01 21:09:58.652 [INF] -------------Request-Begin------------
+2024-08-01 21:09:58.652 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "Name": "denemee",
+  "CurrencyCode": "USD"
+}
+2024-08-01 21:09:58.652 [INF] 
+
+2024-08-01 21:09:58.652 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-08-01 21:09:58.652 [INF] -------------Request-End------------
+2024-08-01 21:10:03.376 [VRB] Checking for aborted jobs...
+2024-08-01 21:10:03.378 [VRB] No newly aborted jobs found.
+2024-08-01 21:10:08.378 [VRB] Checking for aborted jobs...
+2024-08-01 21:10:08.379 [VRB] No newly aborted jobs found.
+2024-08-01 21:10:08.380 [DBG] Server emirhan-macbook-air:9695:6a055ad7 heartbeat successfully sent
+2024-08-01 21:10:08.381 [VRB] Server emirhan-macbook-air:9695:6a055ad7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:10:11.951 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535796120;LastJobId:81;NextExecution:1722535800000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535811782;NextExecution:1722535815000;LastJobId:82)
+2024-08-01 21:10:12.093 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:10:13.381 [VRB] Checking for aborted jobs...
+2024-08-01 21:10:13.382 [VRB] No newly aborted jobs found.
+2024-08-01 21:10:13.828 [INF] LogRequestLoggingMiddleware.Invoke
+2024-08-01 21:10:20.092 [VRB] Checking for aborted jobs...
+2024-08-01 21:10:30.441 [VRB] No newly aborted jobs found.
+2024-08-01 21:10:40.704 [VRB] Checking for aborted jobs...
+2024-08-01 21:10:40.730 [VRB] No newly aborted jobs found.
+2024-08-01 21:10:40.882 [DBG] Server emirhan-macbook-air:9695:6a055ad7 heartbeat successfully sent
+2024-08-01 21:10:40.905 [VRB] Server emirhan-macbook-air:9695:6a055ad7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:10:41.247 [DBG] Execution RecurringJobScheduler is in the Faulted state now due to an exception, execution will be retried no more than in 00:00:01
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2965
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 656
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 527
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(DbConnection connection, String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerDistributedLock.cs:line 202
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 731
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 67
+   at Hangfire.Server.RecurringJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 423
+   at Hangfire.Server.RecurringJobScheduler.EnqueueNextRecurringJobs(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 203
+   at Hangfire.Server.RecurringJobScheduler.Execute(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 176
+   at Hangfire.Server.BackgroundProcessDispatcherBuilder.ExecuteProcess(Guid executionId, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Server\BackgroundProcessDispatcherBuilder.cs:line 82
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Processing\BackgroundExecution.cs:line 118
+ClientConnectionId:93ba0a4b-1624-48ca-85ac-1568adb370d3
+Error Number:-2,State:0,Class:11
+2024-08-01 21:10:41.247 [DBG] Execution DelayedJobScheduler is in the Faulted state now due to an exception, execution will be retried no more than in 00:00:01
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2965
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 656
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 527
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(DbConnection connection, String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerDistributedLock.cs:line 202
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 731
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 67
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action) in C:\projects\hangfire-525\src\Hangfire.Core\Server\DelayedJobScheduler.cs:line 409
+   at Hangfire.Server.DelayedJobScheduler.EnqueueNextScheduledJobs(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\DelayedJobScheduler.cs:line 165
+   at Hangfire.Server.DelayedJobScheduler.Execute(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\DelayedJobScheduler.cs:line 146
+   at Hangfire.Server.BackgroundProcessDispatcherBuilder.ExecuteProcess(Guid executionId, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Server\BackgroundProcessDispatcherBuilder.cs:line 82
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Processing\BackgroundExecution.cs:line 118
+ClientConnectionId:4741ea36-2477-4107-8f0e-6e0527335ff1
+Error Number:-2,State:0,Class:11
+2024-08-01 21:10:41.276 [DBG] Execution loop RecurringJobScheduler:859a1ede caught an exception and will be retried in 00:00:01
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2965
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 656
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 527
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(DbConnection connection, String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerDistributedLock.cs:line 202
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 731
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 67
+   at Hangfire.Server.RecurringJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 423
+   at Hangfire.Server.RecurringJobScheduler.EnqueueNextRecurringJobs(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 203
+   at Hangfire.Server.RecurringJobScheduler.Execute(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 176
+   at Hangfire.Server.BackgroundProcessDispatcherBuilder.ExecuteProcess(Guid executionId, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Server\BackgroundProcessDispatcherBuilder.cs:line 82
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Processing\BackgroundExecution.cs:line 118
+ClientConnectionId:93ba0a4b-1624-48ca-85ac-1568adb370d3
+Error Number:-2,State:0,Class:11
+2024-08-01 21:10:41.277 [DBG] Execution loop DelayedJobScheduler:7094f7ea caught an exception and will be retried in 00:00:01
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2965
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 656
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 527
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(DbConnection connection, String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerDistributedLock.cs:line 202
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 731
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerConnection.cs:line 67
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action) in C:\projects\hangfire-525\src\Hangfire.Core\Server\DelayedJobScheduler.cs:line 409
+   at Hangfire.Server.DelayedJobScheduler.EnqueueNextScheduledJobs(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\DelayedJobScheduler.cs:line 165
+   at Hangfire.Server.DelayedJobScheduler.Execute(BackgroundProcessContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Server\DelayedJobScheduler.cs:line 146
+   at Hangfire.Server.BackgroundProcessDispatcherBuilder.ExecuteProcess(Guid executionId, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Server\BackgroundProcessDispatcherBuilder.cs:line 82
+   at Hangfire.Processing.BackgroundExecution.Run(Action`2 callback, Object state) in C:\projects\hangfire-525\src\Hangfire.Core\Processing\BackgroundExecution.cs:line 118
+ClientConnectionId:4741ea36-2477-4107-8f0e-6e0527335ff1
+Error Number:-2,State:0,Class:11
+2024-08-01 21:10:41.278 [DBG] Execution loop RecurringJobScheduler:859a1ede will be retried in 00:00:01...
+2024-08-01 21:10:41.279 [DBG] Execution loop DelayedJobScheduler:7094f7ea will be retried in 00:00:01...
+2024-08-01 21:10:48.226 [VRB] Checking for aborted jobs...
+2024-08-01 21:10:48.250 [VRB] No newly aborted jobs found.
+2024-08-01 21:10:48.724 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535811782;LastJobId:82;NextExecution:1722535815000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535848359;NextExecution:1722535850000;LastJobId:83)
+2024-08-01 21:10:48.945 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:10:53.616 [VRB] Checking for aborted jobs...
+2024-08-01 21:10:53.638 [VRB] No newly aborted jobs found.
+2024-08-01 21:11:05.942 [VRB] Checking for aborted jobs...
+2024-08-01 21:11:06.072 [VRB] No newly aborted jobs found.
+2024-08-01 21:11:06.072 [INF] Execution DelayedJobScheduler recovered from the Faulted state after 00:00:24.8255090 and is in the Running state now
+2024-08-01 21:11:06.072 [INF] Execution RecurringJobScheduler recovered from the Faulted state after 00:00:24.8255023 and is in the Running state now
+2024-08-01 21:11:23.572 [VRB] Checking for aborted jobs...
+2024-08-01 21:11:23.600 [VRB] No newly aborted jobs found.
+2024-08-01 21:11:23.743 [DBG] Server emirhan-macbook-air:9695:6a055ad7 heartbeat successfully sent
+2024-08-01 21:11:27.213 [VRB] Server emirhan-macbook-air:9695:6a055ad7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:11:27.213 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535848359;LastJobId:83;NextExecution:1722535850000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535866433;NextExecution:1722535870000;LastJobId:84)
+2024-08-01 21:11:29.315 [VRB] Checking for aborted jobs...
+2024-08-01 21:11:29.315 [VRB] No newly aborted jobs found.
+2024-08-01 21:11:34.348 [VRB] Checking for aborted jobs...
+2024-08-01 21:11:34.485 [VRB] No newly aborted jobs found.
+2024-08-01 21:11:42.614 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:11:43.156 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535866433;LastJobId:84;NextExecution:1722535870000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535902848;NextExecution:1722535905000;LastJobId:85)
+2024-08-01 21:11:43.630 [VRB] Checking for aborted jobs...
+2024-08-01 21:11:43.606 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:11:43.656 [VRB] No newly aborted jobs found.
+2024-08-01 21:11:49.635 [VRB] Checking for aborted jobs...
+2024-08-01 21:11:49.710 [VRB] No newly aborted jobs found.
+2024-08-01 21:12:14.232 [VRB] Checking for aborted jobs...
+2024-08-01 21:12:14.255 [VRB] No newly aborted jobs found.
+2024-08-01 21:12:14.308 [DBG] Server emirhan-macbook-air:9695:6a055ad7 heartbeat successfully sent
+2024-08-01 21:12:14.334 [VRB] Server emirhan-macbook-air:9695:6a055ad7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:12:21.403 [VRB] Checking for aborted jobs...
+2024-08-01 21:12:21.505 [VRB] No newly aborted jobs found.
+2024-08-01 21:12:22.506 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535902848;LastJobId:85;NextExecution:1722535905000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535934406;NextExecution:1722535935000;LastJobId:86)
+2024-08-01 21:12:26.577 [VRB] Checking for aborted jobs...
+2024-08-01 21:12:26.577 [VRB] No newly aborted jobs found.
+2024-08-01 21:12:31.692 [VRB] Checking for aborted jobs...
+2024-08-01 21:12:31.860 [VRB] No newly aborted jobs found.
+2024-08-01 21:12:32.413 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:12:32.847 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535934406;LastJobId:86;NextExecution:1722535935000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535952437;NextExecution:1722535955000;LastJobId:87)
+2024-08-01 21:12:52.331 [VRB] Checking for aborted jobs...
+2024-08-01 21:12:52.453 [VRB] No newly aborted jobs found.
+2024-08-01 21:12:52.521 [DBG] Server emirhan-macbook-air:9695:6a055ad7 heartbeat successfully sent
+2024-08-01 21:12:52.575 [VRB] Server emirhan-macbook-air:9695:6a055ad7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:12:53.182 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:12:54.459 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535952437;LastJobId:87;NextExecution:1722535955000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535973536;NextExecution:1722535975000;LastJobId:88)
+2024-08-01 21:12:54.643 [INF] -------------Request-Begin------------
+2024-08-01 21:12:54.719 [INF] Http Request Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "Name": "denemee",
+  "CurrencyCode": "USD"
+}
+2024-08-01 21:12:54.762 [INF] 
+
+2024-08-01 21:12:54.762 [INF] Http Response Information: 
+Schema:http 
+Host: localhost:5220 
+Path: /api/Accounts 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "CustomerId": 1,
+    "Name": "denemee",
+    "AccountNumber": 5090212,
+    "IBAN": "TR509021297925786509021201",
+    "Balance": 0.00,
+    "CurrencyCode": "USD",
+    "OpenDate": "2024-08-01T21:11:39.801902+03:00",
+    "CustomerName": "Emirhan Kilicaslan",
+    "CustomerIdentityNumber": "123123123",
+    "CustomerNumber": 123123123,
+    "Id": 4
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-08-01T18:12:21.505774Z",
+  "ReferenceNumber": "a7345df9-f8be-4540-af10-eb1541a6698c"
+}
+2024-08-01 21:12:54.763 [INF] -------------Request-End------------
+2024-08-01 21:12:55.874 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:12:57.494 [VRB] Checking for aborted jobs...
+2024-08-01 21:12:57.555 [VRB] No newly aborted jobs found.
+2024-08-01 21:12:58.213 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535973536;LastJobId:88;NextExecution:1722535975000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535976200;NextExecution:1722535980000;LastJobId:89)
+2024-08-01 21:13:00.005 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:13:01.204 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535976200;LastJobId:89;NextExecution:1722535980000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535980453;NextExecution:1722535985000;LastJobId:90)
+2024-08-01 21:13:02.647 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:02.718 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:03.328 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:13:07.796 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:07.798 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:12.822 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:12.849 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:17.854 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:17.952 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:20.043 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535980453;LastJobId:90;NextExecution:1722535985000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722535999267;NextExecution:1722536000000;LastJobId:91)
+2024-08-01 21:13:20.945 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:13:22.438 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722535999267;LastJobId:91;NextExecution:1722536000000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722536001335;NextExecution:1722536005000;LastJobId:92)
+2024-08-01 21:13:22.856 [DBG] Server emirhan-macbook-air:9695:6a055ad7 heartbeat successfully sent
+2024-08-01 21:13:22.955 [VRB] Server emirhan-macbook-air:9695:6a055ad7 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-01 21:13:22.955 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:22.982 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:24.762 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:13:26.605 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722536001335;LastJobId:92;NextExecution:1722536005000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722536005470;NextExecution:1722536010000;LastJobId:93)
+2024-08-01 21:13:27.991 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:28.042 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:29.231 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:13:33.088 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:33.090 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:38.092 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:38.094 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:43.115 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:43.166 [VRB] No newly aborted jobs found.
+2024-08-01 21:13:45.929 [VRB] Recurring job 'listen-email-queue' is being updated. RecurringJob: (CreatedAt:1722533943761;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.RabbitMQ.Email.EmailConsumer, Para.Bussiness","m":"StartListening"};LastExecution:1722536005470;LastJobId:93;NextExecution:1722536010000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722536025351;NextExecution:1722536030000;LastJobId:94)
+2024-08-01 21:13:46.858 [DBG] 1 recurring job(s) processed by scheduler.
+2024-08-01 21:13:48.206 [VRB] Checking for aborted jobs...
+2024-08-01 21:13:48.277 [VRB] No newly aborted jobs found.
